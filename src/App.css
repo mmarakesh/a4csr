@@ -9,7 +9,6 @@
 .nav-right {
   height: 50px;
   margin: 50px 0px;
-  border-start-start-radius: 20px;
 }
 .link {
   color: #000;
@@ -20,22 +19,16 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+.first-link {
+  border-radius: 20px 0px 0px 20px;
+}
 :hover.link {
   color: #27B470;
 }
-.kontakt {
+/* .kontakt {
   color: #fff;
   background-color: #78c795;
   padding: 10px 50px;
   border-radius: 10px;
-  
-}
+}  */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
