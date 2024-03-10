@@ -7,6 +7,8 @@
   padding: 15px;
 }
 .nav-right {
+  display: flex;
+  align-items: center;
   height: 50px;
   margin: 50px 0px;
 }
@@ -32,3 +34,23 @@
   border-radius: 10px;
 }  */
 
+.dropdown-menu{
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+}
+li{
+  list-style: none;
+}
+.dropdown-menu ul li:hover{
+  color: black;
+  cursor: pointer;
+}
+.dropdown-menu.active{
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-menu.inactive{
+  opacity: 0;
+  visibility: hidden;
+}
