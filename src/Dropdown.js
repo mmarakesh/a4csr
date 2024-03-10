@@ -35,7 +35,7 @@ const Dropdown = () =>{
 function DropdownItem(props){
     return(
         <li className="dropdownItem">
-            <p>{props.text}</p>
+            <a>{props.text}</a>
         </li>
     );
 }
