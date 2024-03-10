@@ -1,14 +1,35 @@
 import './Formspree.css';
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
-function Formspree() {
-    return(
-    <div className='formspree'>
-    <form>
-        <input className='formspree-input' type='email' placeholder='email'/>
+function ContactForm() {
+    const [state, handleSubmit] = useForm("xjvnoeeo");
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;
+    }
+    return (
+        <form onSubmit={handleSubmit}>
+        <input
+        id="email"
+        className='formspree-input'
+        type="email" 
+        name="email"
+        placeholder='email'
+        />
+        <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+        />
+        <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+        />
+        <button className='formspree-btn' type="submit" disabled={state.submitting}>
+        Postanite naš partneri
+        </button>
     </form>
-        <button className='formspree-btn'>Postanite naš partneri</button>
-    </div>
-    )
+    );
 }
-
-export default Formspree;
+export default ContactForm;
