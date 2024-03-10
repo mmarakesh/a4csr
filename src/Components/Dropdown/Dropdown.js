@@ -1,4 +1,6 @@
+import './Dropdown.css'
 import { useState, useEffect, useRef } from "react";
+
 const Dropdown = () =>{
     const [open, setOpen] = useState(false);
 
@@ -35,7 +37,7 @@ const Dropdown = () =>{
 function DropdownItem(props){
     return(
         <li className="dropdownItem">
-            <a>{props.text}</a>
+            <p>{props.text}</p>
         </li>
     );
 }

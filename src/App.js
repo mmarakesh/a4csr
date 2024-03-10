@@ -6,7 +6,7 @@ import {
 import logo from './image/logo.png';
 import './App.css';
 import Onama from "./Components/Onama/Onama";
-import Dropdown from "./Dropdown";
+import Dropdown from "./Components/Dropdown/Dropdown";
 
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
   return <Router>
     <div className="nav">
     <div className="nav-left">
-      <img src={logo} alt="logo" width="400px"/>
+      <img className="logo" src={logo} alt="logo"/>
     </div>
     
     <nav className="nav-right">
-      <Link to = "/o nama" className="link first-link"><Dropdown/></Link>
+      <Link to = "/o nama" className="link"><Dropdown/></Link>
       <Link to = "/partneri" className="link">Partneri</Link>
       <Link to = "/vjesti" className="link">Vjesti</Link>
       <Link to = "/projekti" className="link">Projekti</Link>
