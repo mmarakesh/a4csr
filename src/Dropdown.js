@@ -1,8 +1,23 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 const Dropdown = () =>{
     const [open, setOpen] = useState(false);
+
+    let menuRef = useRef();
+
+    useEffect(()=>{
+        let handler = (e) =>{
+            if(!menuRef.current.contains(e.target)){
+                setOpen(false);
+            }
+        };
+        document.addEventListener('mousedown', handler);
+
+        return() =>{
+            document.removeEventListener('mousedown', handler);
+        }
+    });
     return(  
-        <div >
+        <div className="menu-container" ref={menuRef}>
             <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>
                 <p>O nama</p>
             </div>
