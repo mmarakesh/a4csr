@@ -1,0 +1,27 @@
+.formspree {
+    display: flex;
+    flex-direction: column;
+}
+.formspree-input {
+    background-color: #F5F5F5;
+    border: none;
+    width: 650px;
+    padding: 20px 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: "Gruppo", sans-serif;
+    font-size: 20px;
+}
+.formspree-btn {
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #27B470;
+    box-shadow: 10px 5px 5px #C4C4C4;
+    opacity: 0.9;
+}
