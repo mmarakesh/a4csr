@@ -2,8 +2,7 @@
     font-family: "Gruppo", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    letter-spacing: 1px;
+    font-size: 45px;
     margin: 70px 0px 30px;
     text-align: center;
 }
@@ -14,7 +13,7 @@
 .misija-text-box {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    margin: 30px 60px;
+    margin: 20px 0px 0px 50px;
 }
 .misija-text {
     display: flex;
