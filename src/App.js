@@ -7,6 +7,7 @@ import logo from './image/logo.png';
 import './App.css';
 import Onama from "./Components/Onama/Onama";
 import Dropdown from "./Components/Dropdown/Dropdown";
+import Misija from "./Components/Misija/Misija";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     </nav>
     </div>
     <Onama/>
+    <Misija/>
     
   </Router>
 }

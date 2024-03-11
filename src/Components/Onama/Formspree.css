@@ -19,9 +19,18 @@
     margin-top: 40px;
     font-size: 32px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     background-color: #27B470;
     box-shadow: 10px 5px 5px #C4C4C4;
     opacity: 0.9;
+}
+:hover.formspree-btn {
+    color: #fff;
+    border: 1px solid #78c795;
+    background-color: #78c795;
+}
+.handle-submit {
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
 }
