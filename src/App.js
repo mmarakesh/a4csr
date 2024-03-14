@@ -5,9 +5,11 @@ import {
 } from "react-router-dom";
 import logo from './image/logo.png';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Onama from "./Components/Onama/Onama";
 import Dropdown from "./Components/Dropdown/Dropdown";
 import Misija from "./Components/Misija/Misija";
+import Projekti from "./Components/Projekti/Projekti";
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
     </div>
     <Onama/>
     <Misija/>
+    <Projekti/>
+    
     
   </Router>
 }

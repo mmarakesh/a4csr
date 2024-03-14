@@ -1,0 +1,14 @@
+.carousel {
+  display: flex;
+  width: 70%;
+  height: 100vh;
+}
+.carousel-box {
+  background-color: #D9D9D9;
+  opacity: 0.6;
+  margin-bottom: 500px;
+  padding: 10px;
+}
+.carousel-text {
+  color: #000;
+}
