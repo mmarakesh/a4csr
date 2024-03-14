@@ -1,7 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Link
+  Link,
 } from "react-router-dom";
 import logo from './image/logo.png';
 import './App.css';
@@ -10,9 +10,12 @@ import Dropdown from "./Components/Dropdown/Dropdown";
 import Misija from "./Components/Misija/Misija";
 
 
+
+
 function App() {
   
   return <Router>
+  
     <div className="nav">
     <div className="nav-left">
       <img className="logo" src={logo} alt="logo"/>
@@ -25,9 +28,12 @@ function App() {
       <Link to = "/projekti" className="link">Projekti</Link>
       <Link to = "/kontakt" className="link kontakt">Kontakt</Link>
     </nav>
+  
     </div>
     <Onama/>
     <Misija/>
+  
+    
     
   </Router>
 }
