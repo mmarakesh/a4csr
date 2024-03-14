@@ -10,6 +10,7 @@ import Onama from "./Components/Onama/Onama";
 import Dropdown from "./Components/Dropdown/Dropdown";
 import Misija from "./Components/Misija/Misija";
 import Projekti from "./Components/Projekti/Projekti";
+import Documentacija from "./Components/PoslovnaDok/Documentacija";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     </div>
     <Onama/>
     <Misija/>
+    <Documentacija/>
     <Projekti/>
     
     
