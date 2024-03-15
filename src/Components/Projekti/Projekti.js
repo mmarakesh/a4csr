@@ -23,7 +23,7 @@ function Projekti() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={1000}>
+      <Carousel.Item>
       <iframe width="1100" height="665" src="https://www.youtube.com/embed/QIeP6yRtli8?si=IzBtef_n-8eo9t0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         {/* <video className="d-block w-100" src="https://www.youtube.com/watch?v=QIeP6yRtli8" type="video/ogg" autoplay="autoplay" loop="loop" muted defaultMuted playsinline/> */}
         {/* <Carousel.Caption className='carousel-box'>
