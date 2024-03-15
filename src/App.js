@@ -25,7 +25,7 @@ function App() {
       <Link to = "/partneri" className="link">Partneri</Link>
       <Link to = "/vjesti" className="link">Vjesti</Link>
       <Link to = "/projekti" className="link">Projekti</Link>
-      <Link to = "/kontakt" className="link kontakt">Kontakt</Link>
+      <Link to = "/kontakt" className="kontakt">Kontakt</Link>
     </nav>
     </div>
     <Onama/>
