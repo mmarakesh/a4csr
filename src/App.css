@@ -38,6 +38,9 @@
   border-radius: 10px;
   margin-right: 50px;
   margin-left: 50px;
+  height: 5px;
+  display: flex;
+  align-items: center;
 }
 :hover.kontakt {
   color: #fff;
