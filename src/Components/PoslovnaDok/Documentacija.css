@@ -1,7 +1,15 @@
+.doc-header {
+    font-family: "Gruppo", sans-serif;
+    
+    font-size: 45px;
+    margin: 70px 0px 0px;
+    text-align: center;
+}
 .document-par {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .document-box {
     display: flex;

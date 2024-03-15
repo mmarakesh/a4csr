@@ -13,6 +13,7 @@
 }
 .carousel-box {
   background-color: #D9D9D9;
+  border-radius: 10px;
   opacity: 0.6;
   margin-bottom: 500px;
   padding: 10px;

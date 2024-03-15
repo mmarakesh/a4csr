@@ -1,23 +1,22 @@
-.header {
+.misija-header {
     font-family: "Gruppo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 45px;
-    margin: 70px 0px 30px;
+    margin: 70px 0px 0px;
     text-align: center;
 }
 .image-people {
-    width: 550px;
+    width: 350px;
     margin-top: 0px;
 }
 .misija-text-box {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    
     margin: 20px 0px 0px 50px;
 }
 .misija-text {
     display: flex;
     margin: 50px 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
 }
 .misija-btn {
     font-family: "Montserrat", sans-serif;

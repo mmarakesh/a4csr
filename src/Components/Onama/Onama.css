@@ -13,7 +13,7 @@ margin: 0px 50px;
 }
 .onama-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 .onama-btn {
     font-family: "Montserrat", sans-serif;
@@ -23,8 +23,6 @@ margin: 0px 50px;
 }
 .onama-header {
     font-family: "Gruppo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 45px;
     margin: 50px 0px;
 }
