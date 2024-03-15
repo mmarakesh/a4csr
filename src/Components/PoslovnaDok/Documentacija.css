@@ -5,7 +5,7 @@
 }
 .document-box {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: #f5f5f5;
     border-radius: 20px;
     margin: 30px 100px;
