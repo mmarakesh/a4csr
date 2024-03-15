@@ -23,7 +23,7 @@
 .document-text {
     margin-right: auto;
     font-family: "Gruppo", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 .document-btn-one, .document-btn-two {
     padding: 5px 100px;
@@ -31,6 +31,6 @@
     border: solid 2px #78C795;
     background-color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16gitpx;
     box-shadow: 3px 3px 5px #C4C4C4;
 }
