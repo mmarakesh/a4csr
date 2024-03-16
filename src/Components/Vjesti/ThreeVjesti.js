@@ -2,7 +2,7 @@ import React from "react";
 import vjestiList from "./vjestiList";
 
 
-function Vjesti() {
+function ThreeVjesti() {
   const firstThreeVjesti = vjestiList.filter((_, id)=>[2,4,7].includes(id)); // Get the first three items from vjestiList
 
   return (
@@ -26,4 +26,4 @@ function Vjesti() {
   );
 }
 
-export default Vjesti;
+export default ThreeVjesti;
