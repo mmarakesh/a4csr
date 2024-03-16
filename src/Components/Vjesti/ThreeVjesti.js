@@ -3,7 +3,7 @@ import vjestiList from "./vjestiList";
 
 
 function Vjesti() {
-  const firstThreeVjesti = vjestiList.filter((_, id)=>[2,5,8].includes(id)); // Get the first three items from vjestiList
+  const firstThreeVjesti = vjestiList.filter((_, id)=>[2,4,7].includes(id)); // Get the first three items from vjestiList
 
   return (
     <div>
