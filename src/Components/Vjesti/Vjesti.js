@@ -3,7 +3,6 @@ import vjestiList from "./vjestiList";
 function Vjesti() {
     return(
         <div>
-            <h2>Vjesti</h2>
             {vjestiList.map(element => {
                 const {id, img, title, description, city, date, link} = element
                 return(
