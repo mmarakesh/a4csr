@@ -1,8 +1,12 @@
 import React from 'react';
 import myPDF from './Statut.pdf';
+import PDF from './Izvještaj.pdf';
 import './Documentacija.css'
 
 function Documentacija() {
+    const openPdfOne = () => {
+        window.open(PDF, '_blank');
+    };
     const openPdfTwo = () => {
         window.open(myPDF, '_blank');
     };
@@ -14,7 +18,7 @@ function Documentacija() {
 
             <div className='document-box'>
                 <p className='document-text'>Godišnji izvještaj</p>
-                <button className='document-btn-one' onClick={() => window.open('link-to-godisnji-izvjestaj.pdf', '_blank')}>Otvori dokument</button>
+                <button className='document-btn-one' onClick={openPdfOne}>Otvori dokument</button>
             </div>
 
             <div className='document-box'>
