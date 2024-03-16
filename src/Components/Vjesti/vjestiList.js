@@ -13,7 +13,7 @@ import image11 from "./image/IMG_3198.JPG"
 const vjestiList = [
     {
         id: 1,
-        title: `I PROJEKAT SA INTERNATIONAL SCHOOL OF PODGORICA -
+        title: `Projekat sa International school of Podgorica -
         UNITED KIDS INTERNATIONAL MONTENEGRO`,
         img: image01,
         description: `Naše članice mr Vanja Janković i mr Katya Letunovsky
