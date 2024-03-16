@@ -7,15 +7,13 @@ function ThreeVjesti() {
   const firstThreeVjesti = vjestiList.filter((_, id)=>[2,4,7].includes(id)); // Get the first three items from vjestiList
 
   return (
-    <div className="vjesti-all">
+    <div className="vjesti-three-all">
       {firstThreeVjesti.map((element) => {
         const { id, img, title } = element;
         return (
     
-          <div key={id} className="vjesti-card">
-            <div className="three-vjesti-img">
+          <div key={id} className="vjesti-three-card">
             <img src={img} width="440px" alt="img news" />
-            </div>
             <h3 className="vjesti-title">{title}</h3>
           </div>
         );

@@ -9,14 +9,14 @@ const Home = () => {
     return ( 
         <div>
 <Onama/>
+<div>
+<ThreeVjesti/>
+<Link to = "/vjesti" className="allVjesti-btn">All Vjesti  🡒</Link>
+</div>
 <Misija/>
 <Documentacija/>
 <Projekti/>
-<div>
-<ThreeVjesti/>
-<Link to = "/vjesti" className="link">All Vjesti</Link>
 </div>
-        </div>
     );
 }
 
