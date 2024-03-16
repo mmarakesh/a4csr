@@ -10,12 +10,12 @@ function Misija() {
     Sve ovo radimo s ciljem unapređenja društveno odgovornog poslovanja i održivog razvoja, ističući važnost relevantnih pregovaračkih poglavlja i aktivnosti za postizanje održivog zajednice.`
     return(
         <div>
-<h1 className="header">Naša <span className='green-header'> misija i ciljevi</span></h1>
-        <div className='misija-text'>
+<h1 className="misija-header">Naša <span className='green-header'> misija i ciljevi</span></h1>
+        <div className='misija-text-box'>
             <div>
             <img className='image-people' src={image} alt='people'/>
             </div>
-            <div className='misija-text-box'>
+            <div className='misija-text'>
             <p>{showMore ? misijaText : misijaText.substring(0, 419) + "..."}</p>
             <button className='misija-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "← Saznaj manje" : "Saznaj više 🡒"} </button>
             </div>

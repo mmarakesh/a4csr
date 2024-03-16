@@ -11,8 +11,7 @@ function newDropdown() {
     <Dropdown.Menu>
         <Dropdown.Item href="#/action-1">Tim</Dropdown.Item>
         <Dropdown.Item href="#/action-2">Poslovna documentacija</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-    </Dropdown.Menu>
+      </Dropdown.Menu>
     </Dropdown>
 );
 }

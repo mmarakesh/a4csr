@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import photoOne from './imgProjekti/photoOne.jpg'
 import photoTwo from './imgProjekti/photoTwo.jpg'
-// import video from './imgProjekti/video.mp4'
+import video from './imgProjekti/video.mp4'
 import './Projekti.css'
 
 function Projekti() {
@@ -24,8 +24,8 @@ function Projekti() {
       </Carousel.Item>
 
       <Carousel.Item>
-      <iframe width="1100" height="665" src="https://www.youtube.com/embed/QIeP6yRtli8?si=IzBtef_n-8eo9t0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        {/* <video className="d-block w-100" src="https://www.youtube.com/watch?v=QIeP6yRtli8" type="video/ogg" autoplay="autoplay" loop="loop" muted defaultMuted playsinline/> */}
+      {/* <iframe width="1100" height="665" src="https://www.youtube.com/embed/QIeP6yRtli8?si=IzBtef_n-8eo9t0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      <video className="d-block w-100" src={video} type="video/ogg" autoplay="autoplay" loop="loop" muted defaultMuted playsinline/> 
         {/* <Carousel.Caption className='carousel-box'>
           <p className='carousel-text'>
           Naš cilj je da podržimo širenje znanja i prakse DOP-a među kompanijama i preduzetnicima u Crnoj Gori i Zapadnom Balkanu. Nadamo se da će ovaj video zainteresovati vaše interesovanje i pomoći da se bolje objasni kako pristupamo društveno odgovornom poslovanju.

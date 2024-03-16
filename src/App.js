@@ -1,6 +1,8 @@
 import React from "react";
 import {
   BrowserRouter as Router,
+  Routes,
+  Route,
   Link
 } from "react-router-dom";
 import logo from './image/logo.png';
@@ -11,6 +13,7 @@ import Misija from "./Components/Misija/Misija";
 import Projekti from "./Components/Projekti/Projekti";
 import Documentacija from "./Components/PoslovnaDok/Documentacija";
 import newDropdown from "./Components/Dropdown/newDropdown";
+import Vjesti from "./Components/Vjesti/Vjesti";
 
 function App() {
   
@@ -25,15 +28,17 @@ function App() {
       <Link to = "/partneri" className="link">Partneri</Link>
       <Link to = "/vjesti" className="link">Vjesti</Link>
       <Link to = "/projekti" className="link">Projekti</Link>
-      <Link to = "/kontakt" className="link kontakt">Kontakt</Link>
+      <Link to = "/kontakt" className="kontakt">Kontakt</Link>
     </nav>
+
+    <Routes>
+      <Route path="/vjesti" element={<Vjesti/>}/>
+    </Routes>
     </div>
     <Onama/>
     <Misija/>
     <Documentacija/>
     <Projekti/>
-    
-    
     
   </Router>
 }

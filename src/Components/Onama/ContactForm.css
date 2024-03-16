@@ -18,12 +18,12 @@
     border-radius: 20px;
     width: 100%;
     margin-top: 40px;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #fff;
     background-color: #27B470;
-    background: radial-gradient(circle at 1.8% 4.8%, rgb(120, 199, 149) 0%, rgb(39, 180, 112) 90%);
+    /* background: radial-gradient(circle at 1.8% 4.8%, rgb(120, 199, 149) 0%, rgb(39, 180, 112) 90%); */
     box-shadow: 10px 5px 5px #C4C4C4;
     opacity: 0.9;
 }
