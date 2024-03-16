@@ -14,6 +14,7 @@ import Home from "../Home/Home";
 
 
 
+
 const Navbar = () => {
     return <Router>
     <div className="nav">

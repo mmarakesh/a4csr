@@ -2,6 +2,7 @@ import Misija from "../Misija/Misija";
 import Onama from "../Onama/Onama";
 import Documentacija from "../PoslovnaDok/Documentacija";
 import Projekti from "../Projekti/Projekti";
+import ThreeVjesti from "../Vjesti/ThreeVjesti";
 
 const Home = () => {
     return ( 
@@ -10,6 +11,7 @@ const Home = () => {
 <Misija/>
 <Documentacija/>
 <Projekti/>
+<ThreeVjesti/>
         </div>
     );
 }
