@@ -1,4 +1,5 @@
 import image01 from "./image/IMG_3195.JPG"
+import image02 from "./image/IMG_3254.JPG"
 import image03 from "./image/IMG_3206.JPG"
 import image04 from "./image/IMG_3204.JPG"
 import image05 from "./image/IMG_3202.JPG"
@@ -45,7 +46,7 @@ const vjestiList = [
         id: 2,
         title: `Predavanje u saradnji sa Društvom za preduzetništvo, menadžment i biznis
         Ekonomskog fakulteta UCG EMBA`,
-        img: image01,
+        img: image02,
         description: `A4CSR i Društvo za preduzetništvo, menadžment i biznis Ekonomskog fakulteta UCG
         EMBA organizovali su besplatno predavanje na temu “Četvorodnevna radna nedelja - uticaj
         na produktivnost i zaposlene” Janka Bulatovića, Chevening Awards (FCDO) aluminste koji
