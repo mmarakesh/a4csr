@@ -1,5 +1,6 @@
 import React from "react";
 import vjestiList from "./vjestiList";
+import "./Vjesti.css";
 
 
 function Vjesti() {
@@ -8,18 +9,15 @@ function Vjesti() {
   return (
     <div className="vjesti-all">
       {firstThreeVjesti.map((element) => {
-        const { id, img, title, description, city, date, link } = element;
+        const { id, img, title } = element;
         return (
     
-          <div key={id} className="container-vjesti">
-            <img src={img} width="300px" alt="img news" />
+          <div key={id} className="vjesti-card">
+            <div className="three-vjesti-img">
+            <img src={img} width="440px" alt="img news" />
+            </div>
             <h3 className="vjesti-title">{title}</h3>
-            <p className="vjesti-description">{description}</p>
-            <button onClick={() => window.open(link)}>Pročitajte više</button>
-            <p>{city}, {date}</p>
           </div>
-          
-
         );
       })}
     </div>
