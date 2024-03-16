@@ -12,6 +12,7 @@ function Onama() {
         <p className='onama-text'>{showMore ? onamaText : onamaText.substring(0,186) + "..."}</p>
         <button className='onama-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "← Saznaj manje" : "Saznaj više 🡒"} </button>
         <ContactForm/>
+        
     </div>
     <div>
     <img src={image} className='image-hands' alt='imageHands'/>

@@ -1,4 +1,6 @@
 import vjestiList from "./vjestiList";
+import "./Vjesti.css";
+
 
 function Vjesti() {
     return(
