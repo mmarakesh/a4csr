@@ -1,5 +1,5 @@
 import React from 'react';
-import myPDF from './Statut.pdf';
+import myPDF from './Report.pdf';
 import PDF from './Izvještaj.pdf';
 import './Documentacija.css'
 
