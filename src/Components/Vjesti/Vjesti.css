@@ -35,8 +35,8 @@
     
 }
 .vjesti-description {
-    height: 205px;
-    overflow: auto;
+    /* height: 205px;
+    overflow: auto; */
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
@@ -76,6 +76,13 @@
 }
 :hover.allVjesti-btn{
     color: #000;
+}
+.vjesti-show {
+    color: #27B470;
+}
+.vjesti-link {
+    text-decoration: none;
+    color: #27B470;
 }
   
   

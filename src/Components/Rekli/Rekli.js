@@ -1,6 +1,7 @@
 import "./Rekli.css"
 import imageOne from "./image/slikaOne.png";
 import imageTwo from "./image/slikaTwo.png";
+import imageThree from "./image/slikaThree.png";
 
 const Rekli = () => {
     return (  
@@ -33,7 +34,7 @@ const Rekli = () => {
             
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageTwo} alt="people" height="150px"/>
+                    <img src={imageThree} alt="people" height="150px"/>
                     <div className="rekli-posao">
                     <h3>Uroš Bulatović</h3>
                     <p><b>Osnivač i predsjednik Unije mladih preduzetnika Crne Gore</b></p>
