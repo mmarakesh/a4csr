@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import logo from '../../image/logo.png';
 import "bootstrap/dist/css/bootstrap.min.css";
-import NewDropdown from "../Dropdown/NewDropdown";
+import NewDropdown from "../Dropdown/newDropdown";
 import Vjesti from "../Vjesti/Vjesti";
 import Home from "../Home/Home";
 import Kontakt from "../Kontakt/Kontakt";
