@@ -7,17 +7,18 @@
 .rekli-all-card {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f5f5f5;
+    background-color: #78c795;
     margin-top: 50px;
 }
 .rekli-card {
     width: 400px;
-    background-color: #78c795; 
+    background-color: #f5f5f5; 
     /* background: radial-gradient(circle at 1.8% 4.8%, rgb(128, 201, 155) 0%, rgb(48, 182, 117) 100%);  */
     padding: 2%;
     flex-basis: auto;
     margin: 50px;
     border-radius: 10px;
+    box-shadow: 3px 5px 5px #999999
 }
 .rekli-name {
     display: flex;
@@ -29,6 +30,6 @@
 }
 .rekli-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
 }

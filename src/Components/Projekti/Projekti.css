@@ -3,7 +3,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
-  margin: 100px 0px 30px;
+  margin: 100px 0px 50px;
   text-align: center;
 }
 .carousel {
@@ -20,4 +20,9 @@
 }
 .carousel-text {
   color: #000;
+}
+.projekti-bg {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 0px;
 }

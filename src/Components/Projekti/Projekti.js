@@ -8,6 +8,7 @@ function Projekti() {
   return (
     <>
     <h1 className="projekti-header">Naši <span className='green-header'> projekti</span></h1>
+    <div className='projekti-bg'>
     <Carousel fade className='mx-auto'>
       <Carousel.Item interval={1000}>
       <img className="d-block w-100" alt="First slide" src={photoOne}/>
@@ -33,6 +34,7 @@ function Projekti() {
         </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
+    </div>
     </>
   );
 }
