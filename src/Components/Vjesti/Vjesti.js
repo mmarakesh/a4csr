@@ -18,7 +18,7 @@ function Vjesti() {
                         {/* <button className="vjesti-btn" onClick={() => window.open(link)}>Pročitajte više</button> */}
                         <p className="vjesti-show">{showMore ? "Sakriti" : "Pročitajte više"}</p> 
                         <p className="vjesti-par">{city}, {date}</p>
-                        <a className="vjesti-link" href={showMore ? link : link.substring(0, 0)}>{showMore ? "Ova vest je na Instagramu " : ""}</a>
+                        <a className="vjesti-link" href={showMore ? link : link.substring(0, 0)}>{showMore ? "Ova vjest je na Instagramu " : ""}</a>
                         </div>
                     
                 )

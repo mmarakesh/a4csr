@@ -12,7 +12,7 @@ const Home = () => {
 <Onama/>
 <div>
 <ThreeVjesti/>
-<Link to = "/vjesti" className="allVjesti-btn">Učitaj još  🡒</Link>
+<Link to = "/vjesti" className="allVjesti-btn">Učitaj sve vjesti  🡒</Link>
 </div>
 <Misija/>
 <Rekli/>
