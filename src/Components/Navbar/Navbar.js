@@ -7,9 +7,11 @@ import {
 } from "react-router-dom";
 import logo from '../../image/logo.png';
 import "bootstrap/dist/css/bootstrap.min.css";
-import newDropdown from "../Dropdown/newDropdown";
+import NewDropdown from "../Dropdown/NewDropdown";
 import Vjesti from "../Vjesti/Vjesti";
 import Home from "../Home/Home";
+import Kontakt from "../Kontakt/Kontakt";
+import Tim from "../Tim/Tim";
 
 
 
@@ -17,13 +19,14 @@ import Home from "../Home/Home";
 
 const Navbar = () => {
     return <Router>
+    <div className="nav-container">
     <div className="nav">
     <div className="nav-left">
       <img className="logo" src={logo} alt="logo"/>
     </div>
     
     <nav className="nav-right">
-      <Link to = "/" className="link">{newDropdown()}</Link>
+      <Link to = "/" className="link">{NewDropdown()}</Link>
       <Link to = "/partneri" className="link">Partneri</Link>
       <Link to = "/vjesti" className="link">Vjesti</Link>
       <Link to = "/projekti" className="link">Projekti</Link>
@@ -33,7 +36,14 @@ const Navbar = () => {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/vjesti" element={<Vjesti/>}/>
+      <Route path="/kontakt" element={<Kontakt/>}/>
     </Routes>
+    </div>
+
+    <Routes>
+      <Route path="/tim" element={<Tim/>}/>
+    </Routes>
+    
     </div>
   </Router>;
 }
