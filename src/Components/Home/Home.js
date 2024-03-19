@@ -1,5 +1,6 @@
 import Misija from "../Misija/Misija";
 import Onama from "../Onama/Onama";
+import Partneri from "../Partneri/Partneri";
 import Documentacija from "../PoslovnaDok/Documentacija";
 import Projekti from "../Projekti/Projekti";
 import Rekli from "../Rekli/Rekli";
@@ -12,12 +13,14 @@ const Home = () => {
 <Onama/>
 <div>
 <ThreeVjesti/>
-<Link to = "/vjesti" className="allVjesti-btn">Učitaj sve vjesti  🡒</Link>
+<Link to = "/vjesti" className="allVjesti-btn">Sve vjesti  🡒</Link>
 </div>
 <Misija/>
 <Rekli/>
 <Documentacija/>
 <Projekti/>
+<Partneri/>
+
 </div>
     );
 }
