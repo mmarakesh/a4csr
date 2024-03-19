@@ -40,22 +40,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
-.vjesti-btn {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    background-color: #78c795;
-    box-shadow: 5px 5px 5px #C4C4C4;
-    border-radius: 10px;
-    border: none;
-    padding: 25px 40px;
-    margin: 0px 50px 20px 0px;
-    height: 5px;
-    display: flex;
-    align-items: center;
-}
+
 :hover.vjesti-btn {
     border: 1px solid #78c795;
     background-color: #27B470;
@@ -84,5 +69,7 @@
     text-decoration: none;
     color: #27B470;
 }
-  
-  
+.invisible-btn{
+border: none;
+background-color: #fff;
+} 

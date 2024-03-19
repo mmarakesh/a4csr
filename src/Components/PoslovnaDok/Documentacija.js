@@ -1,14 +1,14 @@
 import React from 'react';
 import myPDF from './Report.pdf';
-import PDF from './Izvještaj.pdf';
+import PDF from './Statut.pdf';
 import './Documentacija.css'
 
 function Documentacija() {
     const openPdfOne = () => {
-        window.open(PDF, '_blank');
+        window.open(myPDF, '_blank');
     };
     const openPdfTwo = () => {
-        window.open(myPDF, '_blank');
+        window.open(PDF, '_blank');
     };
 
     return (
