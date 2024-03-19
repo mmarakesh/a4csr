@@ -5,7 +5,7 @@
     text-align: center;
 }
 .image-people {
-    width: 550px;
+    width: 450px;
     margin-top: 0px;
 }
 .misija-text {
@@ -15,9 +15,9 @@
 }
 .misija-text-box {
     display: flex;
-    margin: 50px 50px;
+    margin: 0px 150px;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     /* background-color: #f5f5f5; */
     padding: 20px;
 }

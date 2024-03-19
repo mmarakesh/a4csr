@@ -11,9 +11,9 @@ const Rekli = () => {
             <div className="rekli-all-card">
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageTwo} alt="people" height="150px"/>
+                    <img src={imageTwo} alt="people" height="100px"/>
                     <div className="rekli-posao">
-                    <h3>Janko Bulatović</h3>
+                    <h5>Janko Bulatović</h5>
                     <h6>MBA University of Westminster and Chevening Alumni</h6>
                     </div>
                     </div>
@@ -22,9 +22,9 @@ const Rekli = () => {
             
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageOne} alt="people" height="150px"/>
+                    <img src={imageOne} alt="people" height="100px"/>
                     <div className="rekli-posao">
-                    <h3>Nina Hajisabbagh</h3>
+                    <h5>Nina Hajisabbagh</h5>
                     <h6>UNITED KIDS INTERNATIONAL Montenegro</h6>
                     </div>
                     </div>
@@ -34,9 +34,9 @@ const Rekli = () => {
             
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageThree} alt="people" height="150px"/>
+                    <img src={imageThree} alt="people" height="100px"/>
                     <div className="rekli-posao">
-                    <h3>Uroš Bulatović</h3>
+                    <h5>Uroš Bulatović</h5>
                     <h6>Osnivač i predsjednik Unije mladih preduzetnika Crne Gore</h6>
                     </div>
                     </div>

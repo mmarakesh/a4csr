@@ -6,19 +6,19 @@
     background-color: #F5F5F5;
     border: none;
     width: 100%;
-    padding: 20px 40px;
+    padding: 15px 40px;
     margin-top: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: "Gruppo", sans-serif;
     font-size: 20px;
 }
 .formspree-btn {
-    padding: 30px;
+    padding: 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #fff;
