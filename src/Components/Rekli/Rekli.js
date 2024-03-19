@@ -6,7 +6,7 @@ import imageThree from "./image/slikaThree.png";
 const Rekli = () => {
     return (  
         <>
-            {/* <h1 className="rekli-header">Rekli <span className='green-header'> su o nama</span></h1> */}
+            <h1 className="rekli-header">Rekli <span className='green-header'> su o nama</span></h1> 
         <div>
             <div className="rekli-all-card">
                 <div className="rekli-card">
