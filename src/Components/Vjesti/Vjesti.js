@@ -4,14 +4,19 @@ import { useState } from "react";
 
 
 function Vjesti() {
-    const [showMore, setShowMore] = useState(false);
+    // const [showMore, setShowMore] = useState(false);
+    const [showText, setShowText] = useState(false)
 
     return(
         <div className="vjesti-all">
             {vjestiList.map(element => {
-                const {id, img, title, description, city, date, link} = element
+                const {id, img, title, description, city, date, link, showMore} = element;
+                const showTextClick = (element) => {
+                    element.showMore = !element.showMore
+                    setShowText(!showText)
+                }
                 return(
-                        <div key={id} className="vjesti-card" onClick={() => setShowMore(!showMore)}>
+                        <div key={id} className="vjesti-card" onClick={() => showTextClick(element)}>
                         <img src={img} width="440px" alt="img news"/>
                         <h3 className="vjesti-title">{title}</h3>
                         <p className="vjesti-description">{showMore ? description : description.substring(0, 220) + "..."}</p>

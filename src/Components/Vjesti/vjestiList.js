@@ -40,7 +40,8 @@ const vjestiList = [
         društveno odgovornom poslovanju`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/C0gfVM9Icht/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+        link: "https://www.instagram.com/p/C0gfVM9Icht/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", 
+        showMore: false
     },
     {
         id: 2,
@@ -72,7 +73,8 @@ const vjestiList = [
         ovim važnim pitanjima koja utiču na radno okruženje i produktivnost zaposlenih`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/Cyx7uZbonUD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Cyx7uZbonUD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 3,
@@ -93,7 +95,8 @@ const vjestiList = [
         o društveno odgovornom poslovanju.`,
         city: "Podgorica",
         date: "14. Septembra. 2023. godine",
-        link: "https://www.instagram.com/p/CxNByF8Il4W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/CxNByF8Il4W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 4,
@@ -118,7 +121,8 @@ const vjestiList = [
         ostvarivanju pozitivnih promjena, kako u okviru svoje organizacije, tako i u široj zajednici.`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 5,
@@ -151,7 +155,8 @@ const vjestiList = [
         https://urbanoctober.unhabitat.org/`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/Cy1WW-1LUkr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Cy1WW-1LUkr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 6,
@@ -177,7 +182,8 @@ const vjestiList = [
         te poziva sve da se pridruže u borbi za čistiju i zdraviju planetu za buduće generacije.`,
         city: "Podgorica",
         date: `16. Septembra. 2023. godine`,
-        link: "https://www.instagram.com/p/CxQIMR5oD-T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/CxQIMR5oD-T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 7,
@@ -200,7 +206,8 @@ const vjestiList = [
         se budućim projektima i inicijativama koje će proizaći iz ove saradnje.`,
         city: "Podgorica",
         date: "28. Septembra 2023. godine",
-        link: "https://www.instagram.com/p/Cxu03xVI0fI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Cxu03xVI0fI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 8,
@@ -223,7 +230,8 @@ const vjestiList = [
         inkluzivnosti i pravednosti u urbanom planiranju i održivom razvoju.`,
         city: "Podgorica",
         date: "17. Oktobra 2023. godine",
-        link: "https://www.instagram.com/p/Cygi16mo04R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Cygi16mo04R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 9,
@@ -247,7 +255,8 @@ const vjestiList = [
         članica Katya bila ključni dio tog procesa.`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/CzOUkCNoIt7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/CzOUkCNoIt7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 10,
@@ -274,7 +283,8 @@ const vjestiList = [
         takve napore koji doprinose razvoju inkluzivnog i prosperitetnog društva.`,
         city: "Bar",
         date: "4. Novembra 2023. godine",
-        link: "https://www.instagram.com/p/Czv-eEsoynL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Czv-eEsoynL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     },
     {
         id: 11,
@@ -296,7 +306,8 @@ const vjestiList = [
         transparentnosti, inkluziji i aktivnom učešću u izgradnji boljeg društva za sve.`,
         city: "Podgorica",
         date: "XII 2023",
-        link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+        link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
     }
 ]
 
