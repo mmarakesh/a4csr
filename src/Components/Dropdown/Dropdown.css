@@ -7,4 +7,11 @@
     font-weight: 500;
     border: none;
   }
+  .tim-style {
+    text-decoration: none;
+  }
+  .dropdown-menu-style {
+    padding: 10px 25px;
+    border: none;
+  }
 

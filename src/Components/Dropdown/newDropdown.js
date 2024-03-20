@@ -9,8 +9,8 @@ function NewDropdown() {
             O nama
     </Dropdown.Toggle>
     
-    <Dropdown.Menu>
-    <Link to = "/tim"><Dropdown.Item href="#/action-1">Tim</Dropdown.Item></Link>
+    <Dropdown.Menu className='dropdown-menu-style'>
+    <Link className='tim-style' to = "/tim"><Dropdown.Item href="#/action-1">Tim</Dropdown.Item></Link>
         <Dropdown.Item href="#/action-2">Poslovna documentacija</Dropdown.Item>
     </Dropdown.Menu>
     
