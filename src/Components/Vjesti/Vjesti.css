@@ -2,6 +2,7 @@
     font-family: "Gruppo", sans-serif;
     font-size: 40px;
     margin-top: 70px;
+    margin-bottom: 30px;
     text-align: center;
 }
 .vjesti-all {
@@ -12,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #f5f5f5;
-    margin-top: 50px;
 }
 .vjesti-card {
     width: 500px;
