@@ -18,7 +18,7 @@ function Misija() {
             <div className='misija-text'>
             <h1 className="misija-header">Naša <span className='green-header'> misija i ciljevi</span></h1>
             <p>{showMore ? misijaText : misijaText.substring(0, 419) + "..."}</p>
-            <button className='misija-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "← Saznaj manje" : "Saznaj više 🡒"} </button>
+            <button className='misija-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "Saznaj manje" : "Saznaj više »"} </button>
             </div>
         </div>
         </div>

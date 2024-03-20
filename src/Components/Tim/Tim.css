@@ -1,1 +1,71 @@
+.container {
+  margin: 0px 200px;  
+}
+
+.tim-header {
+    font-family: "Gruppo", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.tim-hr {
+    margin-right: 200px;
+}
+.tim-hr-two {
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.tim-par {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.tim-btn {
+    padding: 10px 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    background-color: #78c795;
+    box-shadow: 5px 5px 5px #C4C4C4;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 50px;
+}
+:hover.tim-btn {
+    border: 1px solid #78c795;
+    background-color: #27B470;
+  } 
+.tim-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.featurette-heading {
+    text-align: center;
+    margin: 50px 60px 0px 0px;
+}
+.lead {
+    text-align: center;
+    margin: 0px 80px;
+}
+.tim-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.tim-input {
+    margin: 10px 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.tim-form-box {
+    display: flex; 
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 30px 0px;
+    margin: 0px 50px 100px 0px;
+    border-radius: 10px;
+}
+.bd-placeholder-img {
+    margin-top: 100px;
+}
+
 

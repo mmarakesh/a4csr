@@ -23,7 +23,8 @@
 }
 .misija-btn {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     border: none;
-    background-color: #fff; 
+    background-color: #fff;
+    color: #27B470; 
 }

@@ -17,9 +17,10 @@ margin: 0px 100px 0px 100px;
 }
 .onama-btn {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     border: none;
     background-color: #fff;
+    color: #27B470;
 }
 .onama-header {
     font-family: "Gruppo", sans-serif;

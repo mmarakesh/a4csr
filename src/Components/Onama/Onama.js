@@ -10,7 +10,7 @@ function Onama() {
     <div className='box-onama-text'>
         <h1 className='onama-header'>NVO <span className='green-header'>“Asocijacija za društveno odgovorno poslovanje”</span></h1>
         <p className='onama-text'>{showMore ? onamaText : onamaText.substring(0,186) + "..."}</p>
-        <button className='onama-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "← Saznaj manje" : "Saznaj više 🡒"} </button>
+        <button className='onama-btn' onClick={() => setShowMore(!showMore)}>{showMore ? "Saznaj manje" : "Saznaj više »"} </button>
         <ContactForm/>
         
     </div>
