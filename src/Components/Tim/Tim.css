@@ -1,7 +1,6 @@
 .container {
-  margin: 0px 200px;  
+    margin: 0px 200px;  
 }
-
 .tim-header {
     font-family: "Gruppo", sans-serif;
     font-size: 40px;
@@ -9,11 +8,13 @@
 }
 .tim-hr {
     margin-right: 200px;
-    margin-bottom: 50px;
 }
 .tim-hr-two {
     margin-right: 200px;
     margin-top: 50px;
+}
+.tim-card {
+    margin-top: 20px;
 }
 .tim-par {
     font-family: "Montserrat", sans-serif;
