@@ -2,6 +2,7 @@
     font-family: "Gruppo", sans-serif;
     font-size: 40px;
     margin-top: 70px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .partneri-all-card {
@@ -17,8 +18,9 @@
     margin: 20px 30px;
 }
 .partneri-par {
+    display: flex;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-align: center;
-    margin: 0px 400px;
+    margin: 0px 200px;
 }
