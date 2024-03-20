@@ -11,7 +11,7 @@ function NewDropdown() {
     
     <Dropdown.Menu className='dropdown-menu-style'>
     <Link className='tim-style' to = "/tim"><Dropdown.Item href="#/action-1">Tim</Dropdown.Item></Link>
-        <Dropdown.Item href="#/action-2">Poslovna documentacija</Dropdown.Item>
+    <Link className='tim-style' to = "/doc"><Dropdown.Item href="#/action-2">Poslovna documentacija</Dropdown.Item></Link>
     </Dropdown.Menu>
     
     </Dropdown>

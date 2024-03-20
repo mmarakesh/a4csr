@@ -12,6 +12,7 @@ import Vjesti from "../Vjesti/Vjesti";
 import Home from "../Home/Home";
 import Kontakt from "../Kontakt/Kontakt";
 import Tim from "../Tim/Tim";
+import Documentacija from "../PoslovnaDok/Documentacija";
 
 
 
@@ -42,6 +43,7 @@ const Navbar = () => {
 
     <Routes>
       <Route path="/tim" element={<Tim/>}/>
+      <Route path="/doc" element={<Documentacija/>}/>
     </Routes>
     
     </div>
