@@ -2,14 +2,14 @@
     border-radius: 10px;
     width: 650px;
     height: 650px;
-    margin-right: 50px;
+    margin-right: 100px;
     box-shadow: 8px 5px 5px #C4C4C4;
 }
 .onama {
     display: flex;
 }
 .box-onama-text {
-margin: 0px 100px 0px 50px;
+margin: 0px 100px 0px 100px;
 }
 .onama-text {
     font-family: "Montserrat", sans-serif;
@@ -23,7 +23,7 @@ margin: 0px 100px 0px 50px;
 }
 .onama-header {
     font-family: "Gruppo", sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     margin: 50px 0px;
 }
 .green-header {

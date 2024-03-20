@@ -1,12 +1,14 @@
 .rekli-header {
     font-family: "Gruppo", sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 50px;
     text-align: center;
 }
 .rekli-all-card {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: 0px 100px;
     /* background-color: #78c795; */
 }
 .rekli-card {
@@ -16,7 +18,7 @@
     /* background: radial-gradient(circle at 1.8% 4.8%, rgb(128, 201, 155) 0%, rgb(48, 182, 117) 100%);  */
     padding: 2%;
     flex-basis: auto;
-    margin: 50px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 5px 5px #999999
 }
