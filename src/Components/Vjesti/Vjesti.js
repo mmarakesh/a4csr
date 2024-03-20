@@ -4,7 +4,6 @@ import { useState } from "react";
 
 
 function Vjesti() {
-    // const [showMore, setShowMore] = useState(false);
     const [showText, setShowText] = useState(false)
 
     return(

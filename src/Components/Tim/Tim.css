@@ -9,6 +9,7 @@
 }
 .tim-hr {
     margin-right: 200px;
+    margin-bottom: 50px;
 }
 .tim-hr-two {
     margin-right: 200px;
@@ -64,8 +65,12 @@
     margin: 0px 50px 100px 0px;
     border-radius: 10px;
 }
-.bd-placeholder-img {
+.tim-slika {
     margin-top: 100px;
+}
+.tim-bottom-container {
+    display: flex;
+    margin-right: 150px;
 }
 
 

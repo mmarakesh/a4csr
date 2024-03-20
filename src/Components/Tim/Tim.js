@@ -4,7 +4,7 @@ import image03 from './image/katya.jpg'
 import image04 from './image/vanja.jpg'
 import image05 from './image/antonina.jpg'
 import image06 from './image/marina2.png'
-import slika from './image/cuate.png'
+import slika from './image/cuate.jpg'
 import './Tim.css';
 
 function Tim() {
@@ -51,15 +51,15 @@ function Tim() {
         <p><a class="btn btn-success" href="https://www.linkedin.com/in/marina-makarova-developer/">Linkedin »</a></p>
       </div>
     </div>
+
     <hr className='tim-hr-two'/>
-    <div class="row featurette">
-      <div class="col-md-7">
+
+    <div className='tim-bottom-container'>
+      <div>
         <h2 class="featurette-heading fw-normal lh-1">Naša vrata su uvijek otvorena za one koji dijele naše ideale i spremni su doprinijeti putem volonterskog angažmana.</h2>
         <br/>
-        
-        
         <div className='tim-form-box'>
-        <p class="lead">Vaša podrška nije samo dobrodošli, već je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
+        <p className="lead">Vaša podrška nije samo dobrodošli, već je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
         <form className='tim-form'>
           <input className='tim-input' type='text' placeholder='Ime Prezime'/>
           <input className='tim-input' type='email' placeholder='email'/>
@@ -67,10 +67,9 @@ function Tim() {
         </form>
         <button class="tim-btn">Pošaljite »</button>
         </div>
-
       </div>
-      <div class="col-md-5">
-        <img src={slika} alt='tim' class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      <div>
+        <img className='tim-slika' src={slika} alt='tim' />
       </div>
     </div>
     
