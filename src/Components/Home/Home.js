@@ -17,7 +17,6 @@ const Home = () => {
 </div>
 <Misija/>
 <Rekli/>
-<Documentacija/>
 <Projekti/>
 <Partneri/>
 
