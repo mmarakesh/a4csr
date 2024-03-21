@@ -12,8 +12,8 @@ const TabInfoTwo = () => {
                     <>
                         <div key={id} className="medija-card">
                         <iframe width="700" height="350" src={video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3 className="medija-title">{title}</h3>
-                        <p>{date}</p>
+                        <h2 className="medija-title">{title}</h2>
+                        <p className="medija-date">{date}</p>
                         </div>
                         </>
                     

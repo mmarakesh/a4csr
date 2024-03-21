@@ -6,5 +6,13 @@
     width: 500px;
     padding: 2%;
     flex-basis: 50%;
-    box-shadow: 5px 5px 5px #dddddd
+    box-shadow: 5px 5px 5px #dddddd;
+}
+.medija-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.medija-date {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
