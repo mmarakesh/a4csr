@@ -16,7 +16,9 @@ function Documentacija() {
         <div>
             <h1 className="doc-header"> Poslovna <span className='green-header'> documentacija </span></h1>
             <p className='document-par'>Dijelimo sa vama dokumentaciju kako bi imali uvid u naš rad.</p>
-
+            
+            <hr className='doc-hr'/>
+            
             <div className='document-box'>
                 <p className='document-text'>Godišnji izvještaj</p>
                 <button className='document-btn-one' onClick={openPdfOne}>Otvori dokument</button>
