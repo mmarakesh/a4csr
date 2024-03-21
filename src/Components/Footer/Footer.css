@@ -18,10 +18,20 @@
     display: flex;
     justify-content: space-between;
     background-color: #27B470;
+    padding: 15px;
 }
 
 .socialMedia{
     display: flex;
     align-items: center;
     margin-right: 20px;
+}
+.footer-par-email {
+margin: 10px 0px 0px 20px;
+}
+.footer-par-adress {
+    margin-left: 15px;
+}
+.footer-par-phone {
+    margin-left: 20px;
 }
