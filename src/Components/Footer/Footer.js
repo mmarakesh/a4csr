@@ -1,5 +1,5 @@
-// import logo from '../../image/logo.png';
-// import {Link } from "react-router-dom";
+import logo from '../../image/logo.png';
+import {Link } from "react-router-dom";
 import { Instagram } from './Instagram';
 import { LinkedIn } from './LinkedIn';
 import { Facebook } from './Facebook';
@@ -31,6 +31,7 @@ function Footer() {
             <Link to = "/"><img className="logoFoot" src={logo} alt="logo"/></Link>    
         </div> */}
         <div className='creator'>
+            <Link to = "/"><img className="logoFoot" src={logo} alt="logo"/></Link>
             <p>Created by Marina Makarova 2024</p>
         </div>
         <div className='socialMedia'>
