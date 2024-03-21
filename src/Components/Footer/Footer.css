@@ -1,0 +1,27 @@
+.logoFoot {
+    width: 150px;
+    margin: 20px 30px;
+    border-radius: 15px;
+}
+.footer{
+    display: flex;
+}
+.creator{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: flex-end;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #27B470;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
