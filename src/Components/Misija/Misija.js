@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Misija.css';
-import image from './imageCSR.png';
+import image from './cuate1.jpg';
 
 function Misija() {
     const[showMore, setShowMore] = useState(false);
