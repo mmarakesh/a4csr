@@ -11,13 +11,13 @@
     flex-direction: column;
     align-self: flex-end;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 .footerBox{
     display: flex;
     justify-content: space-between;
-    background-color: #27B470;
+    background-color: #78c795;
     padding: 15px;
 }
 
