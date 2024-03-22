@@ -14,24 +14,35 @@
     font-size: 13px;
     text-align: center;
 }
+
 .footerBox{
     display: flex;
     justify-content: space-between;
     background-color: #78c795;
     padding: 15px;
+    border: solid 5px #fff;
 }
-
 .socialMedia{
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 .footer-par-email {
-margin: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 20px;
+    text-decoration: none;
+    color: #4B5B66
 }
 .footer-par-adress {
-    margin-left: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4B5B66
 }
 .footer-par-phone {
     margin-left: 20px;
+    text-decoration: none;
+    color: #4B5B66
+}
+.footer-portfolio {
+    color: #4B5B66;
+    text-decoration: none;
 }
