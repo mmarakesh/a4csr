@@ -45,7 +45,7 @@ const Navbar = () => {
       <Route path="/tim" element={<Tim/>}/>
       <Route path="/doc" element={<Documentacija/>}/>
     </Routes>
-    
+
     </div>
   </Router>;
 }

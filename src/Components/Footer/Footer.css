@@ -14,7 +14,14 @@
     font-size: 13px;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+.portfolio{
+    text-decoration: none;
+    color: inherit;
+}
+>>>>>>> f05b45470689edc18a3ecd9e6fcf1bde5314deba
 .footerBox{
     display: flex;
     justify-content: space-between;
@@ -33,9 +40,14 @@
     color: #4B5B66
 }
 .footer-par-adress {
+<<<<<<< HEAD
     margin-left: 20px;
     text-decoration: none;
     color: #4B5B66
+=======
+    margin-left: 15px;
+    margin-top: 20px;
+>>>>>>> f05b45470689edc18a3ecd9e6fcf1bde5314deba
 }
 .footer-par-phone {
     margin-left: 20px;

@@ -5,6 +5,7 @@ import { LinkedIn } from './LinkedIn';
 import { Facebook } from './Facebook';
 import { Youtube } from './Youtube';
 import './Footer.css';
+import SocialMedia from './SocialMedia';
 
 function Footer() {
 
@@ -24,16 +25,13 @@ function Footer() {
         </div>
         <div className='creator'>
             <Link to = "/"><img className="logoFoot" src={logo} alt="logo"/></Link>
-            {/* <a className='footer-portfolio' href="https://portfolio-project-me.glitch.me/" target="_blank" rel="noreferrer">Created by Marina Makarova 2024</a> */}
+            <p>Created by Marina Makarova 2024</p>
         </div>
         <div className='socialMedia'>
-            <Facebook/>
-            <Instagram/>
-            <LinkedIn/>
-            <Youtube/>
+            <SocialMedia/>
         </div>
     </div>
+    
     )
-
 }
 export default Footer;
