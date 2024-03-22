@@ -4,7 +4,6 @@ import Partneri from "../Partneri/Partneri";
 import Projekti from "../Projekti/Projekti";
 import Rekli from "../Rekli/Rekli";
 import ThreeVjesti from "../Vjesti/ThreeVjesti";
-import Footer from "../Footer/Footer";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
 <Rekli/>
 <Projekti/>
 <Partneri/>
-<Footer/>
+
 
 </div>
     );

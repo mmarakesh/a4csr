@@ -1,5 +1,4 @@
 import logo from '../../image/logo.png';
-import {Link } from "react-router-dom";
 import './Footer.css';
 import SocialMedia from './SocialMedia';
 
@@ -28,8 +27,8 @@ function Footer() {
             <Link to = "/"><img className="logoFoot" src={logo} alt="logo"/></Link>    
         </div> */}
         <div className='creator'>
-            <Link to = "/"><img className="logoFoot" src={logo} alt="logo"/></Link>
-            <p>Created by Marina Makarova 2024</p>
+            <img className="logoFoot" src={logo} alt="logo"/>
+            <p>Created by <a className="portfolio" href="https://portfolio-makarova-developer.netlify.app/" target="_blank">Marina Makarova</a> 2024</p>
         </div>
         <div className='socialMedia'>
             <SocialMedia/>
