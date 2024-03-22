@@ -1,9 +1,5 @@
 import logo from './imgLogo/logo.png';
 import {Link } from "react-router-dom";
-import { Instagram } from './Instagram';
-import { LinkedIn } from './LinkedIn';
-import { Facebook } from './Facebook';
-import { Youtube } from './Youtube';
 import './Footer.css';
 import SocialMedia from './SocialMedia';
 
