@@ -27,14 +27,16 @@ function Projekti() {
       </Carousel.Item>
 
       <Carousel.Item > 
-      <img className="projecti-img d-block w-100" alt="First slide" src={photoOne}/>
+      <img className="projecti-img d-block w-100" alt="First slide" src={photoOne}
+      />
         <Carousel.Caption className='carousel-box'>
           <p className='carousel-text'>Asocijacije za društveno odgovorno poslovanje mr Vanja Janković održala je radionicu zaposlenima na kojoj se razgovaralo o sezoni, područjima za poboljšanja poslovnih praksi i na koji način treba primijeniti DOP (eng. CSR) prakse.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-      <img className="projecti-img d-block w-100" alt="First slide" src={photoTwo}/>
+      <img className="projecti-img d-block w-100" alt="First slide" src={photoTwo}
+      />
         <Carousel.Caption className='carousel-box'>
           <p className='carousel-text'>Učenici su imali odlične prezentacije o principima društveno odgovornog poslovanja uzimajući studije slučaja sa svog časa pečenja, studentske kuhinje, transporta, časa umjetnosti i strategije 3R.</p>
         </Carousel.Caption>
