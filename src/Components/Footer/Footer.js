@@ -6,7 +6,7 @@ function Footer() {
 
     return (
     <div className='footerBox'>
-        <div>
+        <div className='footer-items'>
             <a href='mailto: a4csr@gmail.com' className='footer-par-email'>
             a4csr@gmail.com</a>
             

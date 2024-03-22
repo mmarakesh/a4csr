@@ -21,6 +21,9 @@
     padding: 15px;
     border: solid 5px #fff;
 }
+.footer-items {
+    margin-top: 15px;
+}
 .socialMedia{
     display: flex;
     align-items: center;
@@ -29,23 +32,26 @@
 .footer-par-email {
     margin: 10px 0px 0px 20px;
     text-decoration: none;
-    color: #4B5B66
+    color: #000;
 }
 .footer-par-adress {
     margin-left: 20px;
     text-decoration: none;
-    color: #4B5B66
+    color: #000;
 }
 .footer-par-phone {
     margin-left: 20px;
     text-decoration: none;
-    color: #4B5B66
+    color: #000
 }
 .footer-portfolio {
-    color: #4B5B66;
+    color: #000;
     text-decoration: none;
 }
 .portfolio {
     text-decoration: none;
-    color: #4B5B66;
+    color: #000;
+}
+.media {
+    padding: 5px;
 }

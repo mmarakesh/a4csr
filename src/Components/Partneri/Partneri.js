@@ -11,10 +11,12 @@ function Partneri() {
             </div>
         <div className="partneri-all-card">
             {partneriList.map(element => {
-                const{id, image} = element;
+                const{id, image, link} = element;
                 return(
                     <div key={id} className="partneri-card">
-                    <img src={image} alt="partneri" width="200px" />
+                    <a href={link} target="_blank" rel="noreferrer">
+                    <img src={image} alt="partneri" width="200px"/>
+                    </a>
                     </div>
                 )
             })}

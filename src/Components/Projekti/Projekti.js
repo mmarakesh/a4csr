@@ -8,9 +8,10 @@ function Projekti() {
   return (
     <>
     <h1 className="projekti-header">Naši <span className='green-header'> projekti</span></h1>
+
     <div className='projekti-bg'>
     <Carousel fade className='mx-auto'>
-      <Carousel.Item>
+      <Carousel.Item >
       <video className="d-block w-100" src={video} type="video/ogg" autoplay="autoPlay" loop="loop" muted defaultmuted playsInline/> 
       </Carousel.Item>
 
@@ -31,7 +32,7 @@ function Projekti() {
 
       
     </Carousel>
-    </div>
+    </div> 
     </>
   );
 }

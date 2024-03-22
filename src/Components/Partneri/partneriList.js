@@ -12,39 +12,48 @@ import image09 from './image/image09.png';
 const partneriList = [
     {
         id: 1,
-        image: image01
+        image: image01,
+        link: "https://www.facebook.com/mteldigitalnafabrika/?locale=sr_RS"
     },
     {
         id: 2,
-        image: image02
+        image: image02,
+        link: "https://www.instagram.com/lafrenchtechpodgorica/"
     },
     {
         id: 3,
-        image: image03
+        image: image03,
+        link: "https://mnest.me/"
     },
     {
         id: 4,
-        image: image04
+        image: image04,
+        link: "https://urbanoctober.unhabitat.org/"
     },
     {
         id: 5,
-        image: image05
+        image: image05,
+        link: "https://www.instagram.com/emba_montenegro/"
     },
     {
         id: 6,
-        image: image06
+        image: image06,
+        link: "https://cinidobro.me/"
     },
     {
         id: 7,
-        image: image07
+        image: image07,
+        link: "https://www.uki-montenegro.com/"
     },
     {
         id: 8,
-        image: image08
+        image: image08,
+        link: "https://www.kamenovo.me/"
     },
     {
         id: 9,
-        image: image09
+        image: image09,
+        link: "https://podgorica.me/gradski-saobracaj/"
     },
 ]
 
