@@ -308,6 +308,29 @@ const vjestiList = [
         date: "XII 2023",
         link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
+    },
+    {
+        id: 12,
+        title: `EMBA MONTENEGRO: Četvorodnevna radna nedjelja (Chevening alumni Janko Bulatović) - Prijavi se!`,
+        img: "https://static.wixstatic.com/media/efd107_7a7fde8cbca244a7a0ca6c66e52efea0~mv2.jpg/v1/fill/w_925,h_925,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/efd107_7a7fde8cbca244a7a0ca6c66e52efea0~mv2.jpg",
+        description: `Društvo za preduzetništvo, menadžment i biznis Ekonomskog fakulteta UCG EMBA Montengro, u saradnji sa Asocijacijom za društveno-odgovorno poslovanje, organizuje gostujuće predavanje Chevening alumniste sa MBA Westminister University Janka Bulatovića na temu: “Četvorodnevna radna nedelja- uticaj na produktivnost i zaposlene”
+
+
+        Pozivamo sve studente, predstavnike civilnog društva i institucije da prisustvuju gostujućem predavanju. 
+        
+        
+        Bulatović će objasniti kako bi sistem funkcionisao po konceptu četvorodnevne radne nedelje i kako bi to uticalo na produktivnost, a samim tim i na zaposlene.
+        
+        
+        Predavanje će biti održano u srijedu, 13. decembra u 13 h u sali 104 na Ekonomskom fakultetu. Broj ljudi u sali je ograničen, prijave se vrše putem ove forme OVDJE.
+        
+        
+        
+        Javni poziv objavljuje Mreža za omladinski aktivizam Crne Gore u saradnji sa EMBA Montenegro.`,
+        city: "Podgorica",
+        date: "XII 2023",
+        link: "https://www.moacg.me/post/emba-montenegro-cetvorodnevna-radna-nedjelja-chevening-alumni-janko-bulatovic-prijavi-se",
+        showMore: false
     }
 ]
 

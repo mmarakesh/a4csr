@@ -2,7 +2,9 @@
     font-family: "Gruppo", sans-serif;
     font-size: 40px;
     margin: 50px 0px 0px 100px;
-    
+}
+.doc-container {
+    margin-bottom: 50px;
 }
 .document-par {
     font-family: "Montserrat", sans-serif;
