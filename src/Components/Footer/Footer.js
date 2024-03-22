@@ -28,7 +28,7 @@ function Footer() {
         </div> */}
         <div className='creator'>
             <img className="logoFoot" src={logo} alt="logo"/>
-            <p>Created by <a className="portfolio" href="https://portfolio-makarova-developer.netlify.app/" target="_blank">Marina Makarova</a> 2024</p>
+            <p>Created by <a className="portfolio" href="https://portfolio-makarova-developer.netlify.app/" target="_blank" rel="noreferrer">Marina Makarova</a> 2024</p>
         </div>
         <div className='socialMedia'>
             <SocialMedia/>
