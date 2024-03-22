@@ -13,6 +13,7 @@ import Home from "../Home/Home";
 import Kontakt from "../Kontakt/Kontakt";
 import Tim from "../Tim/Tim";
 import Documentacija from "../PoslovnaDok/Documentacija";
+import ScrollToTopOnMount from "../ScrollToTop/ScrollToTopOnMount";
 
 
 
@@ -20,6 +21,7 @@ import Documentacija from "../PoslovnaDok/Documentacija";
 
 const Navbar = () => {
     return <Router>
+    <ScrollToTopOnMount /> 
     <div className="nav-container">
     <div className="nav">
     <div className="nav-left">

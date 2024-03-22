@@ -1,0 +1,10 @@
+.scrollStyleButton {
+    border: none;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    opacity: 0.3;
+    padding-bottom: 30px ;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
