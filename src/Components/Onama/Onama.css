@@ -1,3 +1,8 @@
+.onama-header {
+    font-family: "Gruppo", sans-serif;
+    font-size: 40px;
+    margin: 30px 100px 20px 0px;
+}
 .image-hands {
     border-radius: 10px;
     width: 500px;
@@ -24,16 +29,42 @@ margin: 0px 50px 0px 100px;
     background-color: #fff;
     color: #27B470;
 }
-.onama-header {
-    font-family: "Gruppo", sans-serif;
-    font-size: 40px;
-    margin: 30px 100px 20px 0px;
-}
 .green-header {
     color: #27B470;
 }
 @media all and (max-width: 1000px) {
 .image-hands {
-    width: 500px;
+    width: 200px;
+    height: 300px;
 }
+}
+@media all and (max-width: 500px) {
+    .image-hands {
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        margin-right: 0px;
+    } 
+    .onama {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .onama-header {
+        font-family: "Gruppo", sans-serif;
+        font-size: 25px;
+        width: auto;
+        margin: 0px 10px 20px 10px;
+    }
+    .onama-text {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    .box-onama-text {
+        width: 300px;
+        margin: 0px;
+    }
+    .onama-btn {
+    font-size: 15px;
+    }
 }

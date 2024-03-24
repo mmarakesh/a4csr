@@ -19,8 +19,8 @@ function ThreeVjesti() {
         return (
     
           <div key={id} className="vjesti-three-card" onClick={() => showTextClick(element)}>
-            <img src={img} width="440px" alt="img news" />
-            <h3 className="vjesti-title">{title}</h3>
+            <img className="img-three-vjesti" src={img} width="440px" alt="img news" />
+            <h3 className="three-vjesti-title">{title}</h3>
             <p className="vjesti-description">{showMore ? description : description.substring(0, 0)}</p>
           </div>
         );

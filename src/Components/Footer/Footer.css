@@ -42,7 +42,7 @@
 .footer-par-phone {
     margin-left: 20px;
     text-decoration: none;
-    color: #000
+    color: #000;
 }
 .footer-portfolio {
     color: #000;
@@ -54,4 +54,39 @@
 }
 .media {
     padding: 5px;
+}
+
+@media all and (max-width: 500px) {
+    .footerBox{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .footer-items {
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer-par-email {
+        margin: 0px;
+    }
+    .footer-par-adress {
+        margin: 0px;
+    }
+    .footer-par-phone {
+        margin: 0px;
+    }
+    .creator{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .soc-media {
+        display: flex;
+        justify-content: center;
+    }
+    .socialMedia{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
 }

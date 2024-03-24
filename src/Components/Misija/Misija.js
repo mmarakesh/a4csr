@@ -11,7 +11,7 @@ function Misija() {
     return(
         <div>
 
-        <div className='misija-text-box'>
+        <div className='misija-box'>
             <div>
             <img className='image-people' src={image} alt='people'/>
             </div>

@@ -22,11 +22,11 @@ function Projekti() {
 
     <div className='projekti-bg'>
     <Carousel onSlide={handleSlide} fade className='mx-auto' interval={null}>
-      <Carousel.Item >
+      <Carousel.Item className='carousel-item'>
       <video ref={(ref) => (videoRefs.current[0] = ref)} className="d-block w-100" src={video} type="video/mp4" loop="loop" autoPlay controls/> 
       </Carousel.Item>
 
-      <Carousel.Item > 
+      <Carousel.Item className='carousel-item'> 
       <img className="projecti-img d-block w-100" alt="First slide" src={photoOne}
       />
         <Carousel.Caption className='carousel-box'>
@@ -34,7 +34,7 @@ function Projekti() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item className='carousel-item'>
       <img className="projecti-img d-block w-100" alt="First slide" src={photoTwo}
       />
         <Carousel.Caption className='carousel-box'>

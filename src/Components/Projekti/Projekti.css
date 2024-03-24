@@ -31,3 +31,16 @@
   width: "auto"; 
   margin: "auto";
 }
+@media all and (max-width: 500px) {
+  .projekti-header {
+    font-size: 25px;
+    margin: 30px 0px 10px;
+  }
+  .projekti-bg {
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    padding-top: 10px;
+  }
+  
+}

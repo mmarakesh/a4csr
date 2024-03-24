@@ -12,8 +12,8 @@ import image09 from './image/image09.png';
 const partneriList = [
     {
         id: 1,
-        image: image01,
-        link: "https://www.facebook.com/mteldigitalnafabrika/?locale=sr_RS"
+        image: image06,
+        link: "https://cinidobro.me/"
     },
     {
         id: 2,
@@ -22,8 +22,8 @@ const partneriList = [
     },
     {
         id: 3,
-        image: image03,
-        link: "https://mnest.me/"
+        image: image09,
+        link: "https://podgorica.me/gradski-saobracaj/"
     },
     {
         id: 4,
@@ -37,8 +37,8 @@ const partneriList = [
     },
     {
         id: 6,
-        image: image06,
-        link: "https://cinidobro.me/"
+        image: image01,
+        link: "https://www.facebook.com/mteldigitalnafabrika/?locale=sr_RS"
     },
     {
         id: 7,
@@ -52,9 +52,9 @@ const partneriList = [
     },
     {
         id: 9,
-        image: image09,
-        link: "https://podgorica.me/gradski-saobracaj/"
-    },
+        image: image03,
+        link: "https://mnest.me/"
+    }
 ]
 
 export default partneriList;

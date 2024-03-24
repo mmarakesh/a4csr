@@ -10,13 +10,11 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 100px;
-    /* background-color: #78c795; */
 }
 .rekli-card {
     width: 400px;
     background-color: #78c795;
     color: #fff;
-    /* background: radial-gradient(circle at 1.8% 4.8%, rgb(128, 201, 155) 0%, rgb(48, 182, 117) 100%);  */
     padding: 2%;
     flex-basis: auto;
     margin: 10px;
@@ -34,4 +32,37 @@
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     margin-top: 20px;
+}
+
+@media all and (max-width: 500px) {
+.rekli-header {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}   
+.rekli-all-card {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 100px;
+} 
+.rekli-card {
+    width: 300px;
+    background-color: #78c795;
+    color: #fff;
+    padding: 2%;
+    flex-basis: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #999999
+}
+.img-rekli {
+    height: 70px;
+}
+.rekli-ime {
+    font-size: 15px;
+}
+.rekli-text {
+    font-size: 12px;
+    margin-top: 10px;
+}
 }

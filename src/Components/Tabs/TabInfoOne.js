@@ -17,7 +17,7 @@ const TabInfoOne = () => {
                 return(
                     <>
                         <div key={id} className="vjesti-card" onClick={() => showTextClick(element)}>
-                        <img src={img} width="440px" alt="img news"/>
+                        <img className="img-news" src={img} alt="img news"/>
                         <h3 className="vjesti-title">{title}</h3>
                         <p className="vjesti-description">{showMore ? description : description.substring(0, 220) + "..."}</p>
                         <p className="vjesti-show">{showMore ? "Sakriti" : "Pročitajte više"}</p> 
