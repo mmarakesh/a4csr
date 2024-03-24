@@ -73,5 +73,10 @@
     display: flex;
     margin-right: 150px;
 }
+.thanks{
+    color:#27B470; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
 
 

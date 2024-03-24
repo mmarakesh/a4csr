@@ -6,6 +6,7 @@ import image05 from './image/antonina.jpg'
 import image06 from './image/marina2.png'
 import slika from './image/cuate.jpg'
 import './Tim.css';
+import TimForm from './TimForm';
 
 function Tim() {
 
@@ -54,26 +55,13 @@ function Tim() {
 
     <hr className='tim-hr-two'/>
 
-    <div className='tim-bottom-container'>
-      <div>
-        <h2 class="featurette-heading fw-normal lh-1">Naša vrata su uvijek otvorena za one koji dijele naše ideale i spremni su doprinijeti putem volonterskog angažmana.</h2>
-        <br/>
-        <div className='tim-form-box'>
-        <p className="lead">Vaša podrška nije samo dobrodošli, već je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
-        <form className='tim-form'>
-          <input className='tim-input' type='text' placeholder='Ime Prezime'/>
-          <input className='tim-input' type='email' placeholder='email'/>
-          <textarea className='tim-input' type='text' placeholder='Vaša poruka'/>
-        </form>
-        <button class="tim-btn">Pošaljite »</button>
-        </div>
-      </div>
+    <div className='tim-bottom-container'>  
+      <TimForm/>
       <div>
         <img className='tim-slika' src={slika} alt='tim' />
       </div>
-    </div>
-    
-   </div>
+    </div>   
+  </div>
     )
 
 }
