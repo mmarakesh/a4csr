@@ -31,9 +31,10 @@
     border: 1px solid #78c795;
     background-color: #78c795;
 }
-.handle-submit {
-    font-size: 32px;
+.thanks{
+    color:#27B470; 
     font-family: "Montserrat", sans-serif;
+    font-size: 50px;
 }
 .form-down {
     margin-left: 10px;

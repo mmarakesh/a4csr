@@ -7,9 +7,11 @@ import ScrollToTopButton from "../ScrollToTop/ScrollToTopButton";
 import ThreeVjesti from "../Vjesti/ThreeVjesti";
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
+
     return ( 
-        <div>
+    <div>
 <Onama/>
 <div>
 <ThreeVjesti/>
@@ -20,8 +22,6 @@ const Home = () => {
 <Projekti/>
 <Partneri/>
 <ScrollToTopButton/>
-
-
 </div>
     );
 }

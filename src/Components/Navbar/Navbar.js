@@ -1,11 +1,10 @@
-import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
-import logo from '../../image/logo.png';
+import logo from '../../logo/logo.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import NewDropdown from "../Dropdown/newDropdown";
 import Vjesti from "../Vjesti/Vjesti";
@@ -20,6 +19,7 @@ import ScrollToTopOnMount from "../ScrollToTop/ScrollToTopOnMount";
 
 
 const Navbar = () => {
+
     return <Router>
     <ScrollToTopOnMount /> 
     <div className="nav-container">
@@ -50,6 +50,7 @@ const Navbar = () => {
 
     </div>
   </Router>;
+  
 }
  
 export default Navbar;

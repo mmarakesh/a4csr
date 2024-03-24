@@ -5,7 +5,7 @@ import './Tim.css';
 function TimForm() {
     const [state, handleSubmit] = useForm("xjvnedqo");
     if (state.succeeded) {
-        return <p className='thanks'>Thanks for your message!</p>;
+        return <p className='thanks'>Hvala za vašu poruku!</p>;
     }
     return (
         <div>
