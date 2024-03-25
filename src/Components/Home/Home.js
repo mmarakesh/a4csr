@@ -15,7 +15,7 @@ const Home = () => {
 <Onama/>
 <div>
 <ThreeVjesti/>
-<Link to = "/vjesti" className="allVjesti-btn">Sve vjesti  »</Link>
+<Link to = "/vjesti" className="allVjesti-btn">Sve vjesti  »</Link> 
 </div>
 <Misija/>
 <Rekli/>

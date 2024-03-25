@@ -61,10 +61,12 @@
   }
  .nav {
     justify-content: center;
+    margin: auto;
   }
  .logo {
- margin: 0;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    width: 280px;
     margin-bottom: 0px;
   }  
   .link {

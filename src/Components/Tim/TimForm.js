@@ -8,7 +8,7 @@ function TimForm() {
         return <p className='thanks'>Hvala za vašu poruku!</p>;
     }
     return (
-        <div>
+        <div className='tim-container-form'>
         <h2 class="featurette-heading fw-normal lh-1">Naša vrata su uvijek otvorena za one koji dijele naše ideale i spremni su doprinijeti putem volonterskog angažmana.</h2>
         <br/>
         <div className='tim-form-box'>
