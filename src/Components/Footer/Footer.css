@@ -56,9 +56,7 @@
 @media all and (max-width: 500px) {
     .footerBox{
         flex-direction: column;
-        justify-content: center;
-       width: auto;
-       margin-right: 0;
+        width: auto;
     }
     .footer-items {
         text-align: center;
