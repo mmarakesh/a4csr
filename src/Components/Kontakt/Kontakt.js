@@ -3,7 +3,7 @@ function Kontakt() {
 
     return (
         <div className='kontakt-info'>
-        <h4>NVO “Asocijacija za društveno odgovorno poslovanje”</h4>
+        <h4 className='kontakt-header'>NVO “Asocijacija za društveno odgovorno poslovanje”</h4>
         <p className='kontakt-text'>NVO “Asocijacija za društveno odgovorno poslovanje” je organizacija koja ima za cilj afirmisanje principa društveno odgovornog poslovanja i održivog poslovanja, te doprinosa integracionim procesima Crne Gore i zemljama Zapadnog Balkana kroz promovisanje podsticajne poslovne klime, njene vrijednosti i značaja, kao i ukazivanje na probleme postizanja društveno odgovornog poslovanja i održivog razvoja u Crnoj Gori, zemljama Zapadnog Balkana i usklađivanja ekonomskog rasta, inkluzivnog i zelenog rasta.</p>
         <div className="parallax"></div>
         <div className='kontakt-tel-box'>

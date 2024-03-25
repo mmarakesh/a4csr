@@ -42,7 +42,7 @@
 @media all and (max-width: 500px) {
 .formspree-input {
     width: 100%;
-    padding: 3px 10px;
+    padding: 5px 10px;
     margin-top: 20px;
     font-size: 13px;
 }    
@@ -55,5 +55,8 @@
 .form-down {
     margin-left: 10px;
     font-size: 15px;
+}
+.thanks{
+    font-size: 25px;
 }
 }
