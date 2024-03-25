@@ -26,7 +26,7 @@ function Footer() {
             <SocialMedia/>
         </div>
     </div>
-    
+
     )
 }
 export default Footer;

@@ -60,7 +60,6 @@
     .footerBox{
         display: flex;
         flex-direction: column;
-        width: auto;
     }
     .footer-items {
         text-align: center;
