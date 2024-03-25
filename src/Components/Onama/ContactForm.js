@@ -15,15 +15,11 @@ function ContactForm() {
         type="email" 
         name="email"
         placeholder='email'
+        required = ''
         />
         <ValidationError 
         prefix="Email" 
         field="email"
-        errors={state.errors}
-        />
-        <ValidationError 
-        prefix="Message" 
-        field="message"
         errors={state.errors}
         />
         <button className='formspree-btn' type="submit" disabled={state.submitting}>
