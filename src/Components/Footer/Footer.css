@@ -3,9 +3,6 @@
     margin: 20px 30px;
     border-radius: 15px;
 }
-.footer{
-    display: flex;
-}
 .creator{
     display: flex;
     flex-direction: column;
@@ -58,9 +55,10 @@
 
 @media all and (max-width: 500px) {
     .footerBox{
-        display: flex;
         flex-direction: column;
-        width: auto;
+        justify-content: center;
+       width: auto;
+       margin-right: 0;
     }
     .footer-items {
         text-align: center;
