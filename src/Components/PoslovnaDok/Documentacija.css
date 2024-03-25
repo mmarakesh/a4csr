@@ -46,3 +46,28 @@
 .doc-hr {
     margin: 0px 100px;
 }
+@media all and (max-width: 500px) {
+    .doc-header {
+        font-size: 25px;
+        margin: 0px;
+        text-align: center;
+    }
+    .document-par {
+        font-size: 12px;
+        margin: 10px 20px 20px 20px;
+    }
+    .doc-hr {
+        margin: 0px 20px 20px;
+    }
+    .document-box {
+        margin: 10px 10px;
+        padding: 20px;
+    }
+    .document-text {
+        font-size: 15px;
+    }
+    .document-btn-one, .document-btn-two {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+}

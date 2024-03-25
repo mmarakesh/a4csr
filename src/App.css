@@ -55,18 +55,18 @@
   body {
     margin: 0;
   }
-  .nav {
-    flex-direction: column;
+  .nav-container {
+  flex-direction: column;
+  align-items: center;
   }
-  .nav-left {
-    margin: auto;
+ .nav {
+    justify-content: center;
   }
-  .logo {
-    display: flex;
-    margin: auto;
+ .logo {
+ margin: 0;
     width: 200px;
     margin-bottom: 0px;
-  }
+  }  
   .link {
     font-size: 15px;
     margin-top: 3px;
@@ -75,10 +75,11 @@
     display: flex;
     flex-direction: column;
     height: 180px;
-    margin-top: 0px;
-    border-radius: none;
-    width: auto;
-  }
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    border-radius: 0px;
+
+  } 
   .kontakt {
     font-size: 15px;
     padding: 15px 20px;

@@ -78,5 +78,27 @@
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
 }
+@media all and (max-width: 500px) {
+    .tim-header {
+        font-size: 25px;
+        margin: 0px;
+    }
+    .row {
+       margin: auto;
+    }
+    .tim-bottom-container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .tim-slika {
+        margin-top: 0px;
+        width: 17rem;
+    }
+    .tim-hr-two, .tim-hr {
+        width: 80%;
+    }
+
+}
 
 

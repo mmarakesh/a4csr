@@ -18,16 +18,15 @@
 }
 @media all and (max-width: 500px) {
     .medija-all {
-        width: 300px;
+        width: 100%;
     }
     .medija-card {
-        width: auto;
-        padding: 2%;
+        width: 100%;
         flex-basis: auto;
         box-shadow: 5px 5px 5px #dddddd
     }
     .video-news {
-        width: 350px;
+        width: 100%;
     }
     .medija-title {
         font-size: 18px;
