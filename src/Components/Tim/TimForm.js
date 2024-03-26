@@ -1,9 +1,29 @@
 import React from 'react';
+import { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './Tim.css';
 
 function TimForm() {
     const [state, handleSubmit] = useForm("xjvnedqo");
+    const [formValues, setFormValues] = useState({ fullName: '', email: '', message: '' });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormValues({ ...formValues, [name]: value });
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        // Check if any of the form fields are empty
+        if (!formValues.fullName || !formValues.email || !formValues.message) {
+            alert('Molimo popunite sva polja.');
+            return;
+        }
+
+        // If all fields are filled, proceed with form submission
+        handleSubmit(e);
+    };
     if (state.succeeded) {
         return <p className='thanks'>Hvala za vašu poruku!</p>;
     }
@@ -13,19 +33,23 @@ function TimForm() {
         <br/>
         <div className='tim-form-box'>
         <p className="lead">Vaša podrška nije samo dobrodošli, već je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
-        <form className='tim-form' onSubmit={handleSubmit}>
+        <form className='tim-form' onSubmit={handleFormSubmit}>
         
         <input
             className='tim-input'
             type="text" 
-            name="message"
+            name="fullName"
             placeholder='Ime Prezime'
+            value={formValues.fullName}
+            onChange={handleChange}
         />
         <input
             className='tim-input'
             type="email" 
             name="email"
             placeholder='email'
+            value={formValues.email}
+            onChange={handleChange}
         />
         <ValidationError 
             prefix="Email" 
@@ -36,7 +60,9 @@ function TimForm() {
             className='tim-input'
             type="text"
             name="message"
-            placeholder='Vaša poruka' 
+            placeholder='Vaša poruka'
+            value={formValues.message}
+            onChange={handleChange} 
         />
         <ValidationError 
             prefix="Message" 

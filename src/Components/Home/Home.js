@@ -19,8 +19,8 @@ const Home = () => {
 </div>
 <Misija/>
 <Rekli/>
-<Projekti/>
-<Partneri/>
+<section id="projekti"><Projekti/></section>
+<section id="partneri"><Partneri/></section>
 <ScrollToTopButton/>
 </div>
     );
