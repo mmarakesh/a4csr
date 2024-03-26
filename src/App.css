@@ -70,21 +70,24 @@
   }  
   .link {
     font-size: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
   }
   .nav-right {
     display: flex;
     flex-direction: column;
-    height: 180px;
+    opacity: 0.9;
+    height: 260px;
     margin: 0px 0px 10px 0px;
-    width: 100%;
+    background-image: url(./Components/Onama/imageHands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0px;
-
+    width: 100%;
   } 
   .kontakt {
     font-size: 15px;
     padding: 15px 20px;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 
