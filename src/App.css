@@ -1,3 +1,4 @@
+
 .logo {
   width: 300px;
   margin: 20px 30px;
@@ -56,36 +57,37 @@
     margin: 0;
   }
   .nav-container {
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  margin: auto;
   }
  .nav {
     justify-content: center;
-    margin: auto;
+    width: 100%;
+    margin-right: 0;
   }
  .logo {
-    display: flex;
-    justify-content: center;
-    width: 280px;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
   }  
   .link {
     font-size: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
   }
   .nav-right {
     display: flex;
     flex-direction: column;
-    height: 180px;
+    opacity: 0.9;
+    height: 260px;
     margin: 0px 0px 10px 0px;
-    width: 100%;
+    background-image: url(./Components/Onama/imageHands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0px;
-
+    width: 100%;
   } 
   .kontakt {
     font-size: 15px;
     padding: 15px 20px;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 
