@@ -13,6 +13,7 @@ import Kontakt from "../Kontakt/Kontakt";
 import Tim from "../Tim/Tim";
 import Documentacija from "../PoslovnaDok/Documentacija";
 import ScrollToTopOnMount from "../ScrollToTop/ScrollToTopOnMount";
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -30,9 +31,9 @@ const Navbar = () => {
     
     <nav className="nav-right">
       <Link to = "/" className="link">{NewDropdown()}</Link>
-      <Link to = "/partneri" className="link">Partneri</Link>
+      <HashLink to = "/#partneri" className="link">Partneri</HashLink>
       <Link to = "/vjesti" className="link">Vjesti</Link>
-      <Link to = "/projekti" className="link">Projekti</Link>
+      <HashLink to = "/#projekti" className="link">Projekti</HashLink>
       <Link to = "/kontakt" className="kontakt">Kontakt</Link>
     </nav>
 
@@ -40,7 +41,9 @@ const Navbar = () => {
       <Route path="/" element={<Home/>}/>
       <Route path="/vjesti" element={<Vjesti/>}/>
       <Route path="/kontakt" element={<Kontakt/>}/>
+      
     </Routes>
+    
     </div>
 
     <Routes>
