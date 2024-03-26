@@ -42,8 +42,8 @@ margin: 0px 50px 0px 100px;
     .image-hands {
         display: flex;
         justify-content: center;
-        width: 20rem;
-        margin: 0px;
+        width: 100%;
+        margin: auto;
     } 
     .onama {
         flex-direction: column;

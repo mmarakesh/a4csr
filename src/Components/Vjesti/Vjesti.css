@@ -23,7 +23,7 @@
 .vjesti-three-card {
     width: 500px;
     padding: 2%;
-   
+    flex-basis: auto;
 }
 .three-vjesti-title {
     font-family: "Gruppo", sans-serif;
