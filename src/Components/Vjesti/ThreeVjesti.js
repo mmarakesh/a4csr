@@ -13,7 +13,7 @@ function ThreeVjesti() {
   return (
     <>
       <h1 className="vjesti-header">Naši <span className='green-header'> vjesti</span></h1>
-    <div className="vjesti-three-all">
+    <div className="vjesti-three-all"> 
       {firstThreeVjesti.map((element) => {
         const { id, img, title, description, showMore } = element;
         return (
@@ -25,7 +25,7 @@ function ThreeVjesti() {
           </div>
         );
       })}
-    </div>
+    </div> 
     </>
   );
 }

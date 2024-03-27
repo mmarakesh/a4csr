@@ -38,6 +38,10 @@ margin: 0px 50px 0px 100px;
     height: 300px;
 }
 }
+@media all and (max-width: 1200px) {
+
+}
+
 @media all and (max-width: 800px) {
     /* .image-hands {
         display: flex;
