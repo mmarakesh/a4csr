@@ -12,7 +12,7 @@ function Vjesti() {
     const [activeTab, setActiveTab] = useState(0)
   
                 return(
-                    <>
+                    <div className="test-scroll">
                     <ScrollToTopOnMount/>
                     <div>
                     <Tabs setActiveTab = { setActiveTab } />
@@ -22,7 +22,7 @@ function Vjesti() {
                     
                     <ScrollToTopButton />
                 
-        </>
+        </div>
         
     )
 }

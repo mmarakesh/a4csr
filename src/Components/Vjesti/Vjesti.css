@@ -88,6 +88,10 @@ font-size: 30px;
 font-weight: bold;
 color: #27B470;
 }
+.test-scroll{
+    display: flex;
+    flex-direction: column;
+}
 @media all and (max-width: 800px) {
     .vjesti-header {
         font-size: 30px;
