@@ -25,6 +25,19 @@ margin: 30px 400px;
     color: #000;
     padding: 5px;
 }
+@media all and (max-width: 800px) {
+    .kontakt-header {
+        font-size: 25px;
+        margin: 30px 20px;
+    }
+    .kontakt-text {
+        margin: 10px 40px 20px;
+        font-size: 12px;
+    }
+    .parallax {
+        display: none;
+        }
+}
 @media all and (max-width: 500px) {
     .kontakt-header {
         font-size: 20px;

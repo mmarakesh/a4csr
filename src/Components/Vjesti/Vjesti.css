@@ -88,6 +88,51 @@ font-size: 30px;
 font-weight: bold;
 color: #27B470;
 }
+@media all and (max-width: 800px) {
+    .vjesti-header {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }    
+    .vjesti-three-all {
+        width: 80%;
+        margin: auto;
+    }
+    .vjesti-three-card {
+        width: 100%;
+        margin: auto;
+    }
+    .img-three-vjesti {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .allVjesti-btn {
+        display: flex;
+        width: 80%;
+        padding: 0px 0px 10px 150px;
+        font-size: 20px;
+        margin: auto;
+    }
+    .img-news {
+        width: 100%;
+    }
+    .vjesti-card {
+        width: 100%;
+    }
+    .vjesti-show {
+        font-size: 12px;
+    }
+    .vjesti-par {
+        font-size: 15px;
+    }
+    .vjesti-link {
+        font-size: 13px;
+    }
+    .btn_tabs {
+        margin: 30px 0px 0px 30px
+        }
+    }
 @media all and (max-width: 500px) {
 .vjesti-header {
     font-size: 25px;

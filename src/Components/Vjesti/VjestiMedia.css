@@ -16,6 +16,25 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
 }
+@media all and (max-width: 800px) {
+    .medija-all {
+        width: 100%;
+    }
+    .medija-card {
+        width: 100%;
+        flex-basis: auto;
+        box-shadow: 5px 5px 5px #dddddd
+    }
+    .video-news {
+        width: 100%;
+    }
+    .medija-title {
+        font-size: 18px;
+    }
+    .medija-date {
+        font-size: 15px;
+    }
+    }
 @media all and (max-width: 500px) {
     .medija-all {
         width: 100%;

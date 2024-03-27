@@ -51,7 +51,42 @@
   border: 1px solid #78c795;
   background-color: #27B470;
 }  
-
+@media all and (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+  .nav-container {
+  width: 100%;
+  margin: auto;
+  }
+ .nav {
+    justify-content: center;
+    width: 100%;
+  }
+ .logo {
+  margin-bottom: 0px;
+  }  
+  .link {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .nav-right {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin: 0px;
+    background-image: url(./Components/Onama/imageHands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+    width: 100%;
+  } 
+  .kontakt {
+    font-size: 15px;
+    padding: 20px 30px;
+    margin-top: 35px;
+  }
+}
 @media all and (max-width: 500px) {
   body {
     margin: 0;
@@ -63,7 +98,6 @@
  .nav {
     justify-content: center;
     width: 100%;
-    margin-right: 0;
   }
  .logo {
   margin-bottom: 0px;

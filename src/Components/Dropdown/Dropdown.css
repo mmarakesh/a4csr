@@ -15,7 +15,20 @@
     padding: 10px 25px;
     border: none;
   }
-
+  @media all and (max-width: 800px) {
+    .link {
+      padding: 5px;
+      font-size: 18px;
+      color: #fff;
+    }
+    .dropdown-menu-style {
+      padding: 5px 15px;
+      border: none;
+    }
+    .tim-style {
+      font-size: 15px;
+    }
+    }
   @media all and (max-width: 500px) {
   .link {
     padding: 3px;
