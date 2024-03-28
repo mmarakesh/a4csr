@@ -78,6 +78,48 @@
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
 }
+@media all and (max-width: 1280px) {
+    .container {
+        margin: auto;  
+    }
+}
+@media all and (max-width: 1024px) {
+.tim-header {
+    font-size: 30px;
+}
+.tim-hr {
+    margin-right: 100px;
+}
+.tim-hr-two {
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.featurette-heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+.tim-form-box {
+    padding: 30px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.lead {
+    font-size: 18px;
+    margin: 0px 60px 20px;
+}
+.tim-btn {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.tim-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tim-container-form {
+    margin-bottom: 20px;
+}
+}
 @media all and (max-width: 800px) {
     .container {
         margin: auto;  
@@ -99,7 +141,7 @@
         margin: 0px 50px 30px;
     }
     .featurette-heading {
-        font-size: 22px;
+        font-size: 25px;
         width: 100%;
         margin: 0px;
     }
@@ -146,9 +188,9 @@
         margin: 0px 20px;
     }
     .featurette-heading {
-        font-size: 22px;
+        font-size: 21px;
         width: 100%;
-        margin-top: 0;
+        margin-top: 20px;
     }
     .tim-form-box {
         padding: 30px 0px;

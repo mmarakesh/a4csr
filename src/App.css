@@ -23,7 +23,7 @@
 .kontakt {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   background-color: #78c795;
@@ -40,17 +40,35 @@
   border: 1px solid #78c795;
   background-color: #27B470;
 }  
+@media all and (max-width: 1280px) {
+  .logo {
+    width: 300px;
+    
+  }
+  
+}
+@media all and (max-width: 1024px) {
+  .logo {
+    width: 200px;
+    margin: 15px 20px;
+  }
+  .nav-right {
+    height: 60px;
+    margin: 30px 0px;
+  }
+  .kontakt {
+    font-size: 13px;
+    padding: 20px 30px;
+    
+  }
+}
 @media all and (max-width: 800px) {
   body {
     margin: 0;
   }
-  .nav-container {
-  width: 100%;
-  margin: auto;
-  }
  .nav {
     justify-content: center;
-    width: 100%;
+    margin: auto;
   }
  .logo {
   margin-bottom: 0px;
@@ -69,7 +87,7 @@
   .kontakt {
     font-size: 15px;
     padding: 20px 30px;
-    margin-top: 35px;
+    margin-top: 20px;
   }
 }
 @media all and (max-width: 500px) {

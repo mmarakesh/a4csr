@@ -18,8 +18,25 @@
     padding: 10px 25px;
     border: none;
   }
+  @media all and (max-width: 1280px) {
+  .tim-style {
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .link {
+    font-size: 15px;
+    padding: 20px 20px;
+  }
+  }
+  @media all and (max-width: 1024px) {
+    .link {
+      font-size: 13px;
+      padding: 20px 20px;
+    }
+  }
   @media all and (max-width: 800px) {
     .link {
+      margin-top: 10px;
       padding: 5px;
       font-size: 15px;
       color: #fff;

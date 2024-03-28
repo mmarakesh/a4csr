@@ -8,22 +8,23 @@
 .vjesti-all {
     display: flex;
     flex-wrap: wrap;
+   
 }
 .vjesti-three-all {
     display: flex;
-    
+    justify-content: center;
     background-color: #f5f5f5;
 } 
 .vjesti-card {
-    width: 500px;
+    width: 400px;
     padding: 2%;
-    flex-basis: auto;
+    flex-grow: 1;
     box-shadow: 5px 5px 5px #dddddd
 }
 .vjesti-three-card {
-    width: 500px;
+    width: 400px;
     padding: 2%;
-    flex-basis: auto;
+    flex-grow: 1;
 }
 .three-vjesti-title {
     font-family: "Gruppo", sans-serif;
@@ -40,7 +41,12 @@
     margin: 20px 10px;
 }
 .img-news {
-    width: 440px;
+    max-width: 100%;
+    height: auto;
+}
+.img-three-vjesti {
+    max-width: 100%;
+    height: auto;
 }
 .vjesti-description {
     font-family: "Montserrat", sans-serif;
@@ -92,8 +98,10 @@ color: #27B470;
     display: flex;
     flex-direction: column;
 }
-@media all and (max-width: 1200px) {
-    .vjesti-three-all {
+
+
+@media all and (max-width: 1280px) {
+    /* .vjesti-three-all {
         flex-wrap: wrap;
         width: 100%;
         margin: auto;
@@ -101,101 +109,68 @@ color: #27B470;
     .vjesti-three-card {
         width: 50%;
         margin: auto;
-    }
-}
-@media all and (max-width: 1100px) {
-    .vjesti-three-card {
-        
-        width: 50%;
-        margin: auto;
-    }
+    } */
 }
 @media all and (max-width: 1024px) {    
-    .vjesti-three-all {
-        flex-wrap: wrap;
-        width: 80%;
-        margin: auto;
-    }
-    .vjesti-three-card {
-        width: 100%;
-        margin: auto;
-    }
-    .img-three-vjesti {
-        width: 100%;
-        margin: auto;
-        padding: auto;
-    }
-    .allVjesti-btn {
-        display: flex;
-        width: 80%;
-        padding: 0px 0px 10px 150px;
-        font-size: 20px;
-        margin: auto;
-    }
-    }
-@media all and (max-width: 800px) {
     .vjesti-header {
         font-size: 30px;
-        margin-top: 30px;
-        margin-bottom: 10px;
     }    
-    .vjesti-three-all {
-        width: 80%;
-        margin: auto;
+    .vjesti-card {
+        width: 300px;
     }
     .vjesti-three-card {
-        width: 100%;
-        margin: auto;
+        width: 290px;
     }
-    .img-three-vjesti {
-        width: 100%;
-        margin: auto;
-        padding: auto;
+    .three-vjesti-title {
+        font-size: 18px;
     }
     .allVjesti-btn {
-        display: flex;
-        width: 80%;
-        padding: 0px 0px 10px 150px;
         font-size: 20px;
         margin: auto;
+    } 
+    
     }
-    .img-news {
-        width: 100%;
-    }
-    .vjesti-card {
-        width: 100%;
-    }
-    .vjesti-show {
-        font-size: 12px;
-    }
-    .vjesti-par {
-        font-size: 15px;
-    }
-    .vjesti-link {
-        font-size: 13px;
-    }
-    .btn_tabs {
-        margin: 30px 0px 0px 30px
+    @media all and (max-width: 800px) {
+        .vjesti-header {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }    
+        .vjesti-three-card {
+            flex-grow: 2;
         }
-    }
-@media all and (max-width: 500px) {
+        .three-vjesti-title {
+            font-size: 18px;
+        }
+        .vjesti-card {
+            flex-grow: 2;
+        }
+        .vjesti-show {
+            font-size: 12px;
+        }
+        .vjesti-par {
+            font-size: 15px;
+        }
+        .vjesti-link {
+            font-size: 13px;
+        }
+        .btn_tabs {
+            margin: 30px 0px 0px 30px
+        }
+        .allVjesti-btn {
+        font-size: 18px;
+        margin: auto;
+        }    
+        }
+@media all and (max-width: 576px) {
 .vjesti-header {
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
 }    
 .vjesti-three-all {
-    width: 50%;
-    margin: auto;
-}
-.vjesti-three-card {
-    width: 100%;
-    margin: auto;
-}
-.img-three-vjesti {
-    width: 100%;
-    margin: auto;
-    padding: auto;
+    flex-direction: column;
+    align-items: center;
 }
 .three-vjesti-title {
     font-size: 18px;
@@ -204,22 +179,11 @@ color: #27B470;
     font-size: 18px;
     margin: 20px 20px;
 }
-.allVjesti-btn {
-    display: flex;
-    width: 50%;
-    padding: 0px 0px 10px 150px;
-    font-size: 20px;
-    margin: auto;
-}
-.img-news {
-    width: 350px;
-}
 .vjesti-card {
     width: auto;
 }
 .vjesti-title {
     font-size: 20px;
-
 }
 .vjesti-description {
     font-size: 12px;

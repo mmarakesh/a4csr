@@ -26,6 +26,44 @@
     background-color: #fff;
     color: #27B470; 
 }
+@media all and (max-width: 1024px) {
+    .image-people {
+        width: 350px;
+    }
+    .misija-header {
+        font-size: 30px;
+        margin-bottom: 10px;
+    } 
+    .misija-text {
+        margin: 0px;
+        font-size: 12px; 
+        width: 500px;
+    }
+    .misija-btn {
+        font-size: 15px;
+    }  
+    }
+@media all and (max-width: 800px) {
+.misija-box {
+    flex-direction: column;
+    align-items: center;
+} 
+.image-people {
+    width: 300px;
+}
+.misija-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+} 
+.misija-text {
+    margin: 0px;
+    font-size: 12px; 
+    width: 500px;
+}
+.misija-btn {
+    font-size: 15px;
+}  
+}
 @media all and (max-width: 500px) {
 .misija-box {
     display: flex;

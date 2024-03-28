@@ -18,7 +18,7 @@ const partneriList = [
     {
         id: 2,
         image: image02,
-        link: "https://www.instagram.com/lafrenchtechpodgorica/"
+        link: "https://lafrenchtech.me/"
     },
     {
         id: 3,

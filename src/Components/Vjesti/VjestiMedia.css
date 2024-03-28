@@ -16,6 +16,9 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
 }
+.video-news {
+    max-width: 100%;
+}
 @media all and (max-width: 800px) {
     .medija-all {
         width: 100%;
