@@ -17,6 +17,7 @@
     background-color: #78c795;
     padding: 15px;
     border: solid 5px #fff;
+    margin-top: auto !important; 
 }
 .footer-items {
     align-self: center;
