@@ -20,17 +20,6 @@
   background-size: contain;
   border-radius: 10px 0px 0px 10px;
 }
-.link {
-  color: #000;
-  text-decoration: none;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-}
-
-:hover.link {
-  color: #27B470;
-}
 .kontakt {
   color: #fff;
   text-decoration: none;
@@ -66,10 +55,7 @@
  .logo {
   margin-bottom: 0px;
   }  
-  .link {
-    font-size: 15px;
-    margin-top: 0px;
-  }
+
   .nav-right {
     display: flex;
     flex-direction: column;
@@ -102,10 +88,6 @@
  .logo {
   margin-bottom: 0px;
   }  
-  .link {
-    font-size: 15px;
-    margin-top: 5px;
-  }
   .nav-right {
     display: flex;
     flex-direction: column;

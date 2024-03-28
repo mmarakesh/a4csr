@@ -2,10 +2,13 @@
     color: #000;
     text-decoration: none;
     padding: 25px 30px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     border: none;
+  }
+  :hover.link {
+    color: #27B470;
   }
   .tim-style {
     text-decoration: none;
@@ -18,7 +21,7 @@
   @media all and (max-width: 800px) {
     .link {
       padding: 5px;
-      font-size: 18px;
+      font-size: 15px;
       color: #fff;
     }
     .dropdown-menu-style {
@@ -31,6 +34,7 @@
     }
   @media all and (max-width: 500px) {
   .link {
+    margin-top: 5px;
     padding: 3px;
     font-size: 15px;
     color: #fff;
