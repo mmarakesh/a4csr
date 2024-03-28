@@ -70,10 +70,6 @@
  .logo {
   margin-bottom: 0px;
   }  
-  .link {
-    font-size: 15px;
-    margin-top: 0px;
-  }
   .nav-right {
     display: flex;
     flex-direction: column;
@@ -106,10 +102,6 @@
  .logo {
   margin-bottom: 0px;
   }  
-  .link {
-    font-size: 15px;
-    margin-top: 5px;
-  }
   .nav-right {
     display: flex;
     flex-direction: column;
