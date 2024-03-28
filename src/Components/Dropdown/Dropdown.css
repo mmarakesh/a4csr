@@ -18,7 +18,7 @@
   @media all and (max-width: 800px) {
     .link {
       padding: 5px;
-      font-size: 18px;
+      font-size: 15px;
       color: #fff;
     }
     .dropdown-menu-style {
@@ -31,6 +31,7 @@
     }
   @media all and (max-width: 500px) {
   .link {
+    margin-top: 5px;
     padding: 3px;
     font-size: 15px;
     color: #fff;
