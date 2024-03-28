@@ -38,6 +38,38 @@ margin: 0px 50px 0px 100px;
     height: 300px;
 }
 }
+@media all and (max-width: 1200px) {
+
+}
+
+@media all and (max-width: 800px) {
+    /* .image-hands {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }  */
+    .image-hands {
+        display: none;
+    }
+    .onama {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .onama-header {
+        font-size: 25px;
+        width: 100%;
+        margin: auto;
+    }
+    .onama-text {
+        font-size: 12px;
+        margin: 0px;
+    }
+    .onama-btn {
+    font-size: 15px;
+    }
+}
 @media all and (max-width: 500px) {
     /* .image-hands {
         display: flex;

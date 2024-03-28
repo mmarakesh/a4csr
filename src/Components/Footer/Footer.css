@@ -20,7 +20,8 @@
     margin-top: auto !important; 
 }
 .footer-items {
-    margin-top: 15px;
+    align-self: center;
+    padding: 30px;
 }
 .socialMedia{
     display: flex;
@@ -28,27 +29,20 @@
     margin-right: 20px;
 }
 .footer-par-email {
-    margin: 10px 0px 0px 20px;
     text-decoration: none;
-    color: #000;
+    color: #333;
 }
 .footer-par-adress {
+    color: #333;
+}
+/* .footer-par-phone {
     margin-left: 20px;
     text-decoration: none;
     color: #000;
-}
-.footer-par-phone {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #000;
-}
-.footer-portfolio {
-    color: #000;
-    text-decoration: none;
-}
+} */
 .portfolio {
     text-decoration: none;
-    color: #000;
+    color: #333;
 }
 .media {
     padding: 5px;

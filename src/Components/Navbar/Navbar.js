@@ -32,8 +32,9 @@ const Navbar = () => {
     <nav className="nav-right">
       <Link to = "/" className="link">{NewDropdown()}</Link>
       <HashLink to = "/#partneri" className="link">Partneri</HashLink>
-      <Link to = "/vjesti" className="link">Vjesti</Link>
+      <Link to = "/vjesti" className="link">Vijesti</Link>
       <HashLink to = "/#projekti" className="link">Projekti</HashLink>
+      <Link to = "/publikacije" className="link">Publikacije</Link>
       <Link to = "/kontakt" className="kontakt">Kontakt</Link>
     </nav>
 

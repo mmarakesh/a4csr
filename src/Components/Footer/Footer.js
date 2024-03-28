@@ -7,15 +7,15 @@ function Footer() {
     return (
     <div className='footerBox'>
         <div className='footer-items'>
-            <a href='mailto: a4csr@gmail.com' className='footer-par-email'>
-            a4csr@gmail.com</a>
+            <a href='mailto: association4csr@gmail.com' className='footer-par-email'>
+            association4csr@gmail.com</a>
             
             <p className='footer-par-adress'> 
             Podgorica, Montenegro</p>
             
-            <a href='tel: +493022440550' className='footer-par-phone'>
+            {/* <a href='tel: +493022440550' className='footer-par-phone'>
             +493-022-440-550
-            </a>
+            </a> */}
         </div>
         
         <div className='creator'>
