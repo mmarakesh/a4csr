@@ -31,7 +31,7 @@
   border-radius: 10px;
   padding: 25px 40px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 30px;
   height: 5px;
   display: flex;
   align-items: center;
@@ -85,6 +85,7 @@
     background-image: url(./Components/Onama/imageHands.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
     border-radius: 0px;
     width: 100%;
   } 
