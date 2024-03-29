@@ -34,8 +34,11 @@
     margin-top: 20px;
 }
 @media all and (max-width: 1280px) {
-.rekli-card {
-    width: 400px;
+    .rekli-all-card {
+        margin: 0px;
+    }
+    .rekli-card {
+    width: 350px;
 }
 }
 @media all and (max-width: 1024px) {
