@@ -14,6 +14,7 @@ import Tim from "../Tim/Tim";
 import Documentacija from "../PoslovnaDok/Documentacija";
 import ScrollToTopOnMount from "../ScrollToTop/ScrollToTopOnMount";
 import { HashLink } from 'react-router-hash-link';
+import Publikacije from "../Publikacije/Publikacije";
 
 
 
@@ -42,6 +43,7 @@ const Navbar = () => {
       <Route path="/" element={<Home/>}/>
       <Route path="/vjesti" element={<Vjesti/>}/>
       <Route path="/kontakt" element={<Kontakt/>}/>
+      <Route path="/publikacije" element={<Publikacije/>}/>
       
     </Routes>
     

@@ -64,18 +64,27 @@ margin: 30px 400px;
     margin: 0px 400px;
     padding: 30px 0px;
 }
+@media all and (max-width: 1280px) {
+    .kontakt-form-box {
+    margin: 0px 200px;    
+    }
+}
 @media all and (max-width: 1024px) {
+    .kontakt-form {
+        font-size: 20px;
+    }
+    .kontakt-form-box {
+        margin: 0px 100px;
+        padding: 30px 0px;
+    }
     .kontakt-header {
         font-size: 25px;
         margin: 30px 20px;
     }
     .kontakt-text {
-        margin: 10px 40px 20px;
+        margin: 10px 100px 20px;
         font-size: 12px;
     }
-    .parallax {
-        display: none;
-        }
 }
 @media all and (max-width: 800px) {
     .kontakt-header {
