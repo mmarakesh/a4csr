@@ -22,7 +22,7 @@ const Rekli = () => {
             
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageOne} alt="people" height="100px"/>
+                    <img className="img-rekli" src={imageOne} alt="people" height="100px"/>
                     <div className="rekli-posao">
                     <h5 className="rekli-ime">Nina Hajisabbagh</h5>
                     <h6 className="rekli-ime">UNITED KIDS INTERNATIONAL Montenegro</h6>
@@ -34,7 +34,7 @@ const Rekli = () => {
             
                 <div className="rekli-card">
                     <div className="rekli-name">
-                    <img src={imageThree} alt="people" height="100px"/>
+                    <img className="img-rekli" src={imageThree} alt="people" height="100px"/>
                     <div className="rekli-posao">
                     <h5 className="rekli-ime">Uroš Bulatović</h5>
                     <h6 className="rekli-ime">Osnivač i predsjednik Unije mladih preduzetnika Crne Gore</h6>

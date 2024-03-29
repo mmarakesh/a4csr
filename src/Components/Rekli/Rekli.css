@@ -44,6 +44,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.rekli-all-card {
+    margin: 0px;
+}
 .rekli-card {
     width: 300px;
 }
@@ -83,7 +86,7 @@
 .rekli-all-card {
     flex-direction: column;
     align-items: center;
-    margin: 0px 100px;
+    margin: auto;
 } 
 .rekli-card {
     width: 300px;
