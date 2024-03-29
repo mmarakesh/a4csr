@@ -8,15 +8,14 @@
 .rekli-all-card {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 .rekli-card {
-    width: 400px;
+    width: 300px;
     background-color: #78c795;
     color: #fff;
     padding: 2%;
-    flex-basis: auto;
+    flex-grow: 1;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 5px 5px #999999
