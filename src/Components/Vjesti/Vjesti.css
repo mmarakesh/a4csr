@@ -108,15 +108,9 @@ color: #27B470;
     }
 }
 @media all and (max-width: 1280px) {
-    /* .vjesti-three-all {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: auto;
+    .vjesti-card {
+        width: 400px;
     }
-    .vjesti-three-card {
-        width: 50%;
-        margin: auto;
-    } */
 }
 @media all and (max-width: 1024px) {    
     .vjesti-header {
