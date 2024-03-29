@@ -1,4 +1,11 @@
-
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+.video-news {
+  width: 900px;
+  height: auto;
+}
 .projekti-header {
   align-self: center;
   margin: auto;

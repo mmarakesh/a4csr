@@ -4,7 +4,7 @@
     margin: 50px 0px 0px 100px;
 }
 .doc-container {
-    margin-bottom: 150px;
+    min-height: 100vh;
 }
 .document-par {
     font-family: "Montserrat", sans-serif;
