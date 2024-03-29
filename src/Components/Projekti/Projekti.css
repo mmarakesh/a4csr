@@ -16,41 +16,21 @@
   margin: 80px 0px 30px;
   text-align: center;
 }
-.carousel {
-  display: flex;
-  width: 70%;
-  height: 100vh;
+@media all and (max-width: 1024px) {
+  .projekti-header {
+    font-size: 30px;
+    margin: 30px 0px 10px;
+  }
 }
-.carousel-box {
-  background-color: #D9D9D9;
-  border-radius: 10px;
-  opacity: 0.6;
-  margin-bottom: 450px;
-  padding: 10px;
-}
-.carousel-text {
-  color: #000;
-}
-.projekti-bg {
-  background-color: #f5f5f5;
-  height: 750px;
-  padding-top: 80px;
-}
-.projecti-img {
-  max-height: 100%;
-  width: "auto"; 
-  margin: "auto";
+@media all and (max-width: 800px) {
+  .projekti-header {
+    font-size: 30px;
+    margin: 30px 0px 10px;
+  }
 }
 @media all and (max-width: 500px) {
   .projekti-header {
     font-size: 25px;
     margin: 30px 0px 10px;
   }
-  .projekti-bg {
-    margin: auto;
-    width: 300px;
-    height: 150px;
-    padding-top: 10px;
-  }
-  
 }
