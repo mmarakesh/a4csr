@@ -1,24 +1,30 @@
-.projekti-container {
-    min-height: 100vh;
+.vjesti-header {
+    font-family: "Gruppo", sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-.vjesti-all {
+.vjesti-three-all {
     display: flex;
-    flex-wrap: wrap;
-}
-.vjesti-card {
+    justify-content: center;
+    background-color: #f5f5f5;
+} 
+.vjesti-three-card {
     width: 400px;
     padding: 2%;
     flex-grow: 1;
-    box-shadow: 5px 5px 5px #dddddd
 }
-.vjesti-title {
+.three-vjesti-title {
     font-family: "Gruppo", sans-serif;
     font-size: 23px;
     font-weight: bold;
     text-align: center;
     margin: 20px 10px;
 }
-.img-news {
+
+
+.img-three-vjesti {
     max-width: 100%;
     height: auto;
 }
@@ -30,11 +36,20 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
 }
-.vjesti-show {
+.allVjesti-btn {
+    background-color: #f5f5f5;
+    display: flex;
     color: #27B470;
-}
-.vjesti-link {
     text-decoration: none;
+    padding: 0px 0px 30px 250px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+:hover.allVjesti-btn{
+    color: #000;
+}
+.vjesti-show {
     color: #27B470;
 }
 .invisible-btn{
@@ -45,23 +60,32 @@ background-color: #fff;
     display: flex;
     flex-direction: column;
 }
+
 @media all and (max-width: 1400px) {
-    .vjesti-card {
+    .vjesti-three-card {
         width: 500px;
     }
 }
-@media all and (max-width: 1280px) {
+/* @media all and (max-width: 1280px) {
     .vjesti-card {
         width: 400px;
     }
-}
+} */
 @media all and (max-width: 1024px) {    
     .vjesti-header {
         font-size: 30px;
     }    
-    .vjesti-card {
-        width: 300px;
+    .vjesti-three-card {
+        width: 290px;
     }
+    .three-vjesti-title {
+        font-size: 18px;
+    }
+    .allVjesti-btn {
+        font-size: 20px;
+        margin: auto;
+    } 
+    
     }
     @media all and (max-width: 800px) {
         .vjesti-header {
@@ -69,8 +93,11 @@ background-color: #fff;
             margin-top: 20px;
             margin-bottom: 10px;
         }    
-        .vjesti-card {
+        .vjesti-three-card {
             flex-grow: 2;
+        }
+        .three-vjesti-title {
+            font-size: 18px;
         }
         .vjesti-show {
             font-size: 12px;
@@ -78,22 +105,33 @@ background-color: #fff;
         .vjesti-par {
             font-size: 15px;
         }
-        .vjesti-link {
-            font-size: 13px;
-        }  
+        .allVjesti-btn {
+        justify-content: center;
+        padding: 0px 0px 30px 0px;
+        font-size: 18px;
+        margin: auto;
+        }    
         }
 @media all and (max-width: 500px) {
 .vjesti-header {
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 10px;
-}    
+} 
+.allVjesti-btn {
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+}   
+.vjesti-three-all {
+    flex-direction: column;
+    align-items: center;
+}
+.three-vjesti-title {
+    font-size: 18px;
+}
 .vjesti-title {
     font-size: 18px;
     margin: 20px 20px;
-}
-.vjesti-card {
-    width: auto;
 }
 .vjesti-title {
     font-size: 20px;
@@ -105,9 +143,6 @@ background-color: #fff;
     font-size: 12px;
 }
 .vjesti-par {
-    font-size: 13px;
-}
-.vjesti-link {
     font-size: 13px;
 }
 }

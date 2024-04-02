@@ -10,7 +10,7 @@ import image09 from "./image/IMG_3201.JPG"
 import image10 from "./image/IMG_3199.JPG"
 import image11 from "./image/IMG_3198.JPG"
 
-const vjestiList = [
+const projektiList = [
     {
         id: 1,
         title: `Projekat sa International school of Podgorica -
@@ -334,4 +334,4 @@ const vjestiList = [
     }
 ]
 
-export default vjestiList;
+export default projektiList;

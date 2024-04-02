@@ -14,7 +14,7 @@ function Documentacija() {
     return (
             
         <div className='doc-container'>
-            <h1 className="doc-header"> Poslovna <span className='green-header'> documentacija </span></h1>
+            <h1 className="doc-header"> Poslovna <span className='green-header'> dokumentacija </span></h1>
             <p className='document-par'>Dijelimo sa vama dokumentaciju kako bi imali uvid u naš rad.</p>
             
             <hr className='doc-hr'/>

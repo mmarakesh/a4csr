@@ -1,11 +1,11 @@
 import Misija from "../Misija/Misija";
 import Onama from "../Onama/Onama";
 import Partneri from "../Partneri/Partneri";
-import Projekti from "../Projekti/Projekti";
 import Rekli from "../Rekli/Rekli";
 import ScrollToTopButton from "../ScrollToTop/ScrollToTopButton";
 import ThreeVjesti from "../Vjesti/ThreeVjesti";
 import { Link } from 'react-router-dom';
+import Video from "../Video/Video";
 
 
 const Home = () => {
@@ -15,11 +15,12 @@ const Home = () => {
 <Onama/>
 <div>
 <ThreeVjesti/>
-<Link to = "/vjesti" className="allVjesti-btn">Sve vjesti  »</Link> 
+<Link to = "/projekti" className="allVjesti-btn">Svi projekti  »</Link> 
 </div>
 <Misija/>
 <Rekli/>
-<section id="projekti"><Projekti/></section>
+<Video/>
+<Link to = "/vjesti" className="allVjesti-btnTwo">Sve vijesti  »</Link> 
 <section id="partneri"><Partneri/></section>
 <ScrollToTopButton/>
 </div>

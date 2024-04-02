@@ -135,7 +135,7 @@
         margin: auto;
     }
     .tim-slika {
-       margin: auto;
+       margin-left: 100px;
     }
     .tim-hr-two, .tim-hr {
         margin: 0px 50px 30px;
@@ -214,5 +214,4 @@
     }
 
 }
-
 

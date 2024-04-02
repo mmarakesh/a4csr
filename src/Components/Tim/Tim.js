@@ -7,6 +7,7 @@ import image06 from './image/marina2.png'
 import slika from './image/cuate.jpg'
 import './Tim.css';
 import TimForm from './TimForm';
+// import ScrollToTopButton from '../ScrollToTop/ScrollToTopButton'
 
 function Tim() {
 
@@ -14,7 +15,7 @@ function Tim() {
     <div class="container marketing">
         <h1 className='tim-header'>Upoznajte naš <span className='green-header'>Tim</span></h1>
         <hr className='tim-hr'/>
-    <div class="row">
+    <div class="row tim-girls">
       <div class="col-lg-4 tim-card">
         <img src={image01} alt='jovana' class="bd-placeholder-img rounded-circle" width="200" height="200" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <h2 class="fw-normal">Jovana Bošković</h2>
@@ -60,7 +61,8 @@ function Tim() {
       <div>
         <img className='tim-slika' src={slika} alt='tim' />
       </div>
-    </div>   
+    </div> 
+    {/* <ScrollToTopButton />   */}
   </div>
     )
 

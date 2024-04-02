@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import vjestiList from "./vjestiList";
-import "./Vjesti.css";
+import vjestiList from "../Projekti/projektiList";
+import "./ThreeVjesti.css";
 
 
 function ThreeVjesti() {
@@ -12,7 +12,7 @@ function ThreeVjesti() {
 }
   return (
     <>
-      <h1 className="vjesti-header">Naši <span className='green-header'> vjesti</span></h1>
+      <h1 className="vjesti-header">Naši <span className='green-header'> projekti</span></h1>
     <div className="vjesti-three-all"> 
       {firstThreeVjesti.map((element) => {
         const { id, img, title, description, showMore } = element;
