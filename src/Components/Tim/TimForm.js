@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import './Tim.css';
 
 function TimForm() {
-    const [state, handleSubmit] = useForm("xjvnedqo");
+    const [state, handleSubmit] = useForm("moqgkbpp");
     const [formValues, setFormValues] = useState({ fullName: '', email: '', message: '' });
 
     const handleChange = (e) => {

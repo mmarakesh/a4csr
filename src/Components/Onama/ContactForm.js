@@ -3,7 +3,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("xjvnoeeo");
+    const [state, handleSubmit] = useForm("moqgkbpp");
     if (state.succeeded) {
         return <p className='thanks'>Hvala što ste se pridružili!</p>;
     }
