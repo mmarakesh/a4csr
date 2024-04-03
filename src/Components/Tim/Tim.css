@@ -1,21 +1,28 @@
 .container {
-    margin: 0px 200px;  
+    /* margin: 0px 200px;   */
+    display: flex;
+    flex-direction: column;
 }
+.tim-girls {
+    margin-left: 100px;
+}
+.tim-card {
+    margin-top: 20px ;
+}
+
 .tim-header {
     font-family: "Gruppo", sans-serif;
     font-size: 40px;
     margin-top: 30px;
 }
 .tim-hr {
-    margin-right: 200px;
+    margin-right: 50px;
 }
 .tim-hr-two {
-    margin-right: 200px;
+    margin-right: 50px;
     margin-top: 50px;
 }
-.tim-card {
-    margin-top: 20px;
-}
+
 .tim-par {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
@@ -71,7 +78,9 @@
 }
 .tim-bottom-container {
     display: flex;
-    margin-right: 150px;
+}
+.tim-container-form {
+    margin: 0px;
 }
 .thanks{
     color:#27B470; 
@@ -82,22 +91,36 @@
     .container {
         margin: auto;  
     }
+    .tim-hr {
+        margin-right: 30px;
+    }
+    .tim-hr-two {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
 }
 @media all and (max-width: 1024px) {
 .tim-header {
     font-size: 30px;
 }
 .tim-hr {
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .tim-hr-two {
-    margin-right: 100px;
+    margin-right: 20px;
     margin-top: 50px;
+}
+.tim-girls {
+    margin: auto;
 }
 .featurette-heading {
     font-size: 25px;
     width: 100%;
     margin: 0px;
+}
+.tim-slika {
+    width: 25rem;
+    padding: 10px;
 }
 .tim-form-box {
     padding: 30px 0px;
@@ -124,6 +147,9 @@
     .container {
         margin: auto;  
     }
+    .tim-girls {
+        margin: auto;
+    }
     .tim-header {
         font-size: 25px;
         text-align: center;
@@ -135,9 +161,12 @@
         margin: auto;
     }
     .tim-slika {
-       margin-left: 100px;
+       margin-left: 120px;
     }
-    .tim-hr-two, .tim-hr {
+    .tim-hr-two {
+        margin: 50px 50px 30px;
+    }
+    .tim-hr {
         margin: 0px 50px 30px;
     }
     .featurette-heading {
@@ -171,6 +200,9 @@
     .container {
         margin: auto;  
     }
+    .tim-girls {
+        margin: auto;
+    }
     .tim-header {
         font-size: 25px;
         text-align: center;
@@ -181,11 +213,14 @@
         margin: auto;
     }
     .tim-slika {
-        margin: 10px;
         width: 19rem;
+        margin: 40px;
     }
-    .tim-hr-two, .tim-hr {
+    .tim-hr {
         margin: 0px 20px;
+    }
+    .tim-hr-two {
+        margin: 40px 50px 30px;
     }
     .featurette-heading {
         font-size: 21px;

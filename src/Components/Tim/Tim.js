@@ -7,7 +7,7 @@ import image06 from './image/marina2.png'
 import slika from './image/cuate.jpg'
 import './Tim.css';
 import TimForm from './TimForm';
-// import ScrollToTopButton from '../ScrollToTop/ScrollToTopButton'
+import ScrollToTopButton from '../ScrollToTop/ScrollToTopButton'
 
 function Tim() {
 
@@ -62,7 +62,7 @@ function Tim() {
         <img className='tim-slika' src={slika} alt='tim' />
       </div>
     </div> 
-    {/* <ScrollToTopButton />   */}
+    <ScrollToTopButton /> 
   </div>
     )
 
