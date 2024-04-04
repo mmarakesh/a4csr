@@ -11,9 +11,9 @@ function Kontakt() {
         <p className='kontakt-member'>Članovi A4CSR-a postaju dio grupe koja se zalaže za održivi razvoj, korporativnu odgovornost i društveno solidarne projekte. Plaćanjem članarine pomažete u ostvarenju naših ciljeva. Zauzvrat ćete dobiti ekskluzivne pozivnice za naše događaje i pristup obukama, radionicama i istraživanjima. Imate mogućnost da popunite formular za: 1) redovnog člana i 2) člana prijatelja. REDOVNI ČLAN uplaćuje godišnju članarinu u iznosu od 10€ na žiro račun NVO i dobija člansku kartu. ČLAN PRIJATELJ ne plaća godišnju članarinu i nema ekskluzivne ponude, ali se može uključiti u rad udruženja volontiranjem u realizaciji projekata i redovnim aktivnostima organizacije. Članstvo u NVO A4CSR može ostvariti svako fizičko i pravno lice koje prihvata misiju i poštuje ciljeve i aktivnosti Udruženja. Za više informacija pogledajte Statut NVO A4CSR.</p>
         </div>
         <div className='kontakt-tel-box'>
+        <a className='kontakt-item' href='mailto: association4csr@gmail.com'>email: association4csr@gmail.com</a>
         {/* <a className='kontakt-item' href='tel: +493022440550'>Phone: +493-022-440-550</a>
         <a className='kontakt-item' href='tel: +493022440550'>Fax.: +493-022-440-550</a> 
-        <a className='kontakt-item' href='mailto: association4csr@gmail.com'>email: association4csr@gmail.com</a>
         <p>www.a4csr.com</p>   */}
         </div>
         <div>
