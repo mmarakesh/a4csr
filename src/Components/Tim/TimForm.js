@@ -32,7 +32,7 @@ function TimForm() {
         <h2 class="featurette-heading fw-normal lh-1">Naša vrata su uvijek otvorena za one koji dijele naše ideale i spremni su doprinijeti putem volonterskog angažmana.</h2>
         <br/>
         <div className='tim-form-box'>
-        <p className="lead">Vaša podrška nije samo dobrodošli, već je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
+        <p className="lead">Vaša podrška je ključna za našu zajedničku misiju izgradnje bolje budućnosti za sve.</p>
         <form className='tim-form' onSubmit={handleFormSubmit}>
         
         <input
