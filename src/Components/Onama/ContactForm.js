@@ -23,7 +23,7 @@ function ContactForm() {
         errors={state.errors}
         />
         <button className='formspree-btn' type="submit" disabled={state.submitting}>
-        <h4 className='form-down'>Postanite naš partneri</h4>
+        <h4 className='form-down'>Postanite naši partneri</h4>
         </button>
     </form>
     );
