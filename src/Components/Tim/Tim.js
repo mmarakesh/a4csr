@@ -4,6 +4,7 @@ import image03 from './image/katya.jpg'
 import image04 from './image/vanja.jpg'
 import image05 from './image/antonina.jpg'
 import image06 from './image/marina2.png'
+import image07 from './image/mia.png'
 import slika from './image/cuate.jpg'
 import './Tim.css';
 import TimForm from './TimForm';
@@ -45,6 +46,12 @@ function Tim() {
         <h2 class="fw-normal">Antonina Berkivska</h2>
         <p>Volonterka, umrežavanje i savjetovanje</p>
         <p><a class="btn btn-success" href="https://www.linkedin.com/in/antonina-berkivska/" target='_blanck'>LinkedIn »</a></p>
+      </div>
+      <div class="col-lg-4 tim-card">
+      <img src={image07} alt='jovana' class="bd-placeholder-img rounded-circle" width="200" height="200" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+        <h2 class="fw-normal">Mia Perunovic</h2>
+        <p>CEO</p>
+        <p><a class="btn btn-success" href="https://www.linkedin.com/in/mia-perunovic-99a80b26b/" target='_blanck'>LinkedIn »</a></p>
       </div>
       <div class="col-lg-4 tim-card">
       <img src={image06} alt='jovana' class="bd-placeholder-img rounded-circle" width="200" height="200" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
