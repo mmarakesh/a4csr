@@ -12,6 +12,32 @@ import image11 from "./image/IMG_3198.JPG"
 
 const projektiList = [
     {
+        id: 4,
+        title: `Edukativna radionica u saradnji sa kolektivom “Kamenovo beach” o društveno
+        odgovornom poslovanju`,
+        img: image04,
+        description: `U sklopu saradnje sa kolektivom Kamenovo Beach,
+        predstavnica Asocijacije za društveno odgovorno poslovanje,
+        mr Vanja Janković, održala je 23. Septembra 2023. godine
+        inspirativnu radionicu za zaposlene. Tokom ove interaktivne
+        sesije, zajedno smo razgovarali o aktuelnoj sezoni,
+        identifikovali oblasti u kojima se mogu unaprijediti poslovne
+        prakse, te istražili načine primjene praksi društveno
+        odgovornog poslovanja (DOP). Važno je istaći da restorani i plažni barovi koji aktivno sprovode korporativnu društvenu
+        odgovornost ostvaruju bolje rezultate u upravljanju svojim zaposlenima. Implementacija
+        DOP praksi u restorane ne samo da doprinosi privlačenju i zadržavanju gostiju, već i
+        motivaciji i angažmanu zaposlenih. Posjedovanje pozitivnog imidža i odgovorne reputacije
+        koju podržava vaša organizacija predstavlja ključnu prednost u konkurentnom poslovnom
+        okruženju.
+        Kroz ovu radionicu, težimo unapređenju svijesti i razumijevanja o važnosti društveno
+        odgovornog poslovanja, te inspirišemo kolektiv da preduzme konkretne korake ka
+        ostvarivanju pozitivnih promjena, kako u okviru svoje organizacije, tako i u široj zajednici.`,
+        city: "Podgorica",
+        date: "12.2023",
+        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
         id: 1,
         title: `Projekat sa International school of Podgorica -
         UNITED KIDS INTERNATIONAL MONTENEGRO`,
@@ -39,7 +65,7 @@ const projektiList = [
         prezentacija mr Janković sprovela interaktivni kviz o
         društveno odgovornom poslovanju`,
         city: "Podgorica",
-        date: "XII 2023",
+        date: "12.2023",
         link: "https://www.instagram.com/p/C0gfVM9Icht/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", 
         showMore: false
     },
@@ -72,56 +98,8 @@ const projektiList = [
         Ovakav nivo interesovanja predstavlja motivaciju za daljnje istraživanje i angažovanje u
         ovim važnim pitanjima koja utiču na radno okruženje i produktivnost zaposlenih`,
         city: "Podgorica",
-        date: "XII 2023",
+        date: "12.2023",
         link: "https://www.instagram.com/p/Cyx7uZbonUD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
-        id: 3,
-        title: `Edukativna radionica u saradnji sa Glavnim gradom Podgorica “Mitovi o
-        društveno odgovornom poslovanju”`,
-        img: image03,
-        description: `U saradnji sa Glavnim gradom Podgorica NVO “Asocijacija za društveno odgovorno
-        poslovanje” je 14. septembra 2023. godine, u prostorijama Birziminium Hub-a organiziovala
-        besplatnu edukativnu radionicu pod nazivom “Mitovi o društveno odgovornom poslovanju”.
-        Predavač je bila mr Vanja Janković, osnivačiva NVO A4CSR.
-        Društvena odgovornost preduzeća (DOP eng. CSR) je koncept upravljanja koji opisuje kako
-        kompanija doprinosi dobrobiti zajednice i društva kroz mjere zaštite životne sredine i društva.
-        DOP igra ključnu ulogu u tome kako brendove percipiraju kupci i njihova ciljna publika.
-        Takođe može pomoći privlačenju zaposlenih i investitora koji daju prioritet ciljevima
-        društveno odgovornog poslovanja koje je kompanija identifikovala. Međutim DOP je takođe
-        često pogrešno shvaćen ili zloupotrebljen od strane nekih preduzeća i kritičara. Tokom
-        edukativne radionice prisutni su imali priliku da istraže neke od uobičajenih zabluda i mitova
-        o društveno odgovornom poslovanju.`,
-        city: "Podgorica",
-        date: "14. Septembra. 2023. godine",
-        link: "https://www.instagram.com/p/CxNByF8Il4W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
-        id: 4,
-        title: `Edukativna radionica u saradnji sa kolektivom “Kamenovo beach” o društveno
-        odgovornom poslovanju`,
-        img: image04,
-        description: `U sklopu saradnje sa kolektivom Kamenovo Beach,
-        predstavnica Asocijacije za društveno odgovorno poslovanje,
-        mr Vanja Janković, održala je 23. Septembra 2023. godine
-        inspirativnu radionicu za zaposlene. Tokom ove interaktivne
-        sesije, zajedno smo razgovarali o aktuelnoj sezoni,
-        identifikovali oblasti u kojima se mogu unaprijediti poslovne
-        prakse, te istražili načine primjene praksi društveno
-        odgovornog poslovanja (DOP). Važno je istaći da restorani i plažni barovi koji aktivno sprovode korporativnu društvenu
-        odgovornost ostvaruju bolje rezultate u upravljanju svojim zaposlenima. Implementacija
-        DOP praksi u restorane ne samo da doprinosi privlačenju i zadržavanju gostiju, već i
-        motivaciji i angažmanu zaposlenih. Posjedovanje pozitivnog imidža i odgovorne reputacije
-        koju podržava vaša organizacija predstavlja ključnu prednost u konkurentnom poslovnom
-        okruženju.
-        Kroz ovu radionicu, težimo unapređenju svijesti i razumijevanja o važnosti društveno
-        odgovornog poslovanja, te inspirišemo kolektiv da preduzme konkretne korake ka
-        ostvarivanju pozitivnih promjena, kako u okviru svoje organizacije, tako i u široj zajednici.`,
-        city: "Podgorica",
-        date: "XII 2023",
-        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {
@@ -154,83 +132,8 @@ const projektiList = [
         možete pogledati na web stranici Urban October:
         https://urbanoctober.unhabitat.org/`,
         city: "Podgorica",
-        date: "XII 2023",
+        date: "12.2023",
         link: "https://www.instagram.com/p/Cy1WW-1LUkr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
-        id: 6,
-        title: `Međunarodni dan čišćenja obala - akcija sa NVO “Zero Waste Montenegro”`,
-        img: image06,
-        description: `Uvažavajući značaj očuvanja čistoće naših obala i vodenih resursa, NVO "Asocijacija za
-        društveno odgovorno poslovanje" sa ponosom se pridružila najvećem svjetskom
-        volonterskom poduhvatu - Međunarodnom danu čišćenja obala. Ova inspirativna akcija, koju
-        je organizovala Zero Waste Montenegro 16.
-        Septembra. 2023. godine, okupila je brojne
-        zainteresovane strane kako bi se suočile s globalnim
-        izazovom otpada u morima i vodotocima.
-        Naša NVO je s entuzijazmom doprinijela čišćenju na
-        lokaciji plaže "Galeb", svjesna da otpad u blizini
-        vodenih tokova može izazvati različite probleme. Ne
-        samo što utiče na kvalitet vode, već ugrožava i biljni i
-        životinjski svijet, te zagađuje okolinu koja je ključna za
-        turizam i rekreaciju, od kojeg zavisi i crnogorska
-        ekonomija.
-        Ovaj čin solidarnosti i brige za našu planetu predstavlja korak ka boljem sutra, pokazujući da
-        zajedničkim naporima možemo stvoriti pozitivne promjene u našem okruženju. NVO A4CSR
-        ostaje posvećena podršci održivim praksama i promovisanju svijesti o zaštiti životne sredine,
-        te poziva sve da se pridruže u borbi za čistiju i zdraviju planetu za buduće generacije.`,
-        city: "Podgorica",
-        date: `16. Septembra. 2023. godine`,
-        link: "https://www.instagram.com/p/CxQIMR5oD-T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
-        id: 7,
-        title: `Potpisivanje Memoranduma o saradnji sa Fondacijom "Cini Dobro"`,
-        img: image07,
-        description: `Postizanje dugoročnih partnerskih odnosa s organizacijama koje dijele naše vrijednosti
-        ključno je za ostvarenje naše misije. 28. Septembra 2023. godine smo napravili značajan
-        korak u tom smjeru - potpisivanjem Memoranduma o saradnji sa Fondacijom "Čini Dobro".
-        Ova saradnja predstavlja spoj snaga i resursa, s ciljem unapređenja društveno odgovornog
-        poslovanja, održivog razvoja i promocije pozitivnih primjera iz prakse.
-        Kroz ovu saradnju, Fondacija "Čini dobro" i
-        NVO "Asocijacija za društveno odgovorno
-        poslovanje" će udružiti svoje napore u
-        organizovanju različitih aktivnosti s ciljem
-        osvješćivanja javnosti i edukacije. Naš
-        zajednički fokus bit će na sticanju vještina i
-        znanja iz oblasti društveno odgovornog poslovanja, održivog razvoja i zaštite životne sredine.
-        Ovaj Memorandum predstavlja početak plodne saradnje koja će omogućiti da zajedno
-        ostvarimo pozitivan uticaj na društvo i okolinu. Sa entuzijazmom i posvećenošću, radujemo
-        se budućim projektima i inicijativama koje će proizaći iz ove saradnje.`,
-        city: "Podgorica",
-        date: "28. Septembra 2023. godine",
-        link: "https://www.instagram.com/p/Cxu03xVI0fI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
-        id: 8,
-        title: `Osnivačica A4CSR Katya Letunovsky gostovala u “The Oblique Life” podcast-u
-        ”Global Goals” o inkluziji pravednosti`,
-        img: image08,
-        description: `17. Oktobra 2023. godine osnivačica A4CSR Katya Letunovsky gostovala u 14. epizodi
-        “The Oblique Life” podcast-a ”Global Goals” o inkluziji pravednosti ključnih tema održivog
-        razvoja definisane kroz 17 ciljeva održivog razvoja
-        Ujedinjenih nacija (SDG). Kroz realne priče i izazove s
-        terena, ova epizoda istražuje kako tehnologija, ljudi i
-        resursi mogu doprinijeti ostvarenju ciljeva održivog
-        razvoja do 2030. godine. Dostupna na platformama poput
-        Spotify-a i Apple Music-a, ova epizoda pruža inspiraciju i
-        uvide u inovativne pristupe koji vode ka stvaranju
-        prosperitetnog, mirnog i održivog svijeta.
-        Fokusirajući se na inkluzivni razvoj gradova i regiona,
-        Katya Letunovsky, pružila je vrijedne uvide o tome kako
-        veliki podaci mogu biti korisni alat za postizanje
-        inkluzivnosti i pravednosti u urbanom planiranju i održivom razvoju.`,
-        city: "Podgorica",
-        date: "17. Oktobra 2023. godine",
-        link: "https://www.instagram.com/p/Cygi16mo04R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {
@@ -254,8 +157,31 @@ const projektiList = [
         važan korak ka izgradnji održivijeg i inkluzivnijeg društva, a mi smo ponosni što je naša
         članica Katya bila ključni dio tog procesa.`,
         city: "Podgorica",
-        date: "XII 2023",
+        date: "12.2023",
         link: "https://www.instagram.com/p/CzOUkCNoIt7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
+        id: 11,
+        title: `Članica NVO A4CSR, Antonina Berkviska prisustvovala obuci o otvorenim
+        podacima i partnerstvu za otvorenu javnu upravu`,
+        img: image11,
+        description: `Članica NVO A4CSR, Antonina Berkviska, nedavno je prisustvovala obuci o otvorenim
+        podacima i partnerstvu za otvorenu javnu upravu, koju je organizovala “Mreža za omladinski
+        aktivizam Crne Gore” (MOACG) u saradnji sa Organizacijom KOD, uz podršku National
+        Democratic Institute. Ova obuka je imala za cilj da pruži podršku predstavnicima NVO
+        sektora u korišćenju otvorenih podataka u svakodnevnom radu.
+        Ponosni smo što naša NVO A4CSR aktivno doprinosi
+        inkluzivnijoj i transparentnijoj implementaciji crnogorskog
+        Nacionalnog akcionog plana Partnerstva za otvorenu javnu
+        upravu (OGP), što je ujedno i cilj projekta pomenutih
+        organizacija. Ovom obukom jačamo naše kapacitete unutar
+        NVO, omogućavajući nam da još bolje odgovorimo na potrebe zajednice i ostvarimo
+        pozitivan uticaj na društvene izazove. Ova inicijativa odražava našu predanost
+        transparentnosti, inkluziji i aktivnom učešću u izgradnji boljeg društva za sve.`,
+        city: "Podgorica",
+        date: "12.2023",
+        link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {
@@ -282,54 +208,105 @@ const projektiList = [
         angažuje u podršci doseljenicima i integraciji zajednice. Nastavljamo sa ponosom podržavati
         takve napore koji doprinose razvoju inkluzivnog i prosperitetnog društva.`,
         city: "Bar",
-        date: "4. Novembra 2023. godine",
+        date: "11.2023",
         link: "https://www.instagram.com/p/Czv-eEsoynL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {
-        id: 11,
-        title: `Članica NVO A4CSR, Antonina Berkviska prisustvovala obuci o otvorenim
-        podacima i partnerstvu za otvorenu javnu upravu`,
-        img: image11,
-        description: `Članica NVO A4CSR, Antonina Berkviska, nedavno je prisustvovala obuci o otvorenim
-        podacima i partnerstvu za otvorenu javnu upravu, koju je organizovala “Mreža za omladinski
-        aktivizam Crne Gore” (MOACG) u saradnji sa Organizacijom KOD, uz podršku National
-        Democratic Institute. Ova obuka je imala za cilj da pruži podršku predstavnicima NVO
-        sektora u korišćenju otvorenih podataka u svakodnevnom radu.
-        Ponosni smo što naša NVO A4CSR aktivno doprinosi
-        inkluzivnijoj i transparentnijoj implementaciji crnogorskog
-        Nacionalnog akcionog plana Partnerstva za otvorenu javnu
-        upravu (OGP), što je ujedno i cilj projekta pomenutih
-        organizacija. Ovom obukom jačamo naše kapacitete unutar
-        NVO, omogućavajući nam da još bolje odgovorimo na potrebe zajednice i ostvarimo
-        pozitivan uticaj na društvene izazove. Ova inicijativa odražava našu predanost
-        transparentnosti, inkluziji i aktivnom učešću u izgradnji boljeg društva za sve.`,
+        id: 8,
+        title: `Osnivačica A4CSR Katya Letunovsky gostovala u “The Oblique Life” podcast-u
+        ”Global Goals” o inkluziji pravednosti`,
+        img: image08,
+        description: `17. Oktobra 2023. godine osnivačica A4CSR Katya Letunovsky gostovala u 14. epizodi
+        “The Oblique Life” podcast-a ”Global Goals” o inkluziji pravednosti ključnih tema održivog
+        razvoja definisane kroz 17 ciljeva održivog razvoja
+        Ujedinjenih nacija (SDG). Kroz realne priče i izazove s
+        terena, ova epizoda istražuje kako tehnologija, ljudi i
+        resursi mogu doprinijeti ostvarenju ciljeva održivog
+        razvoja do 2030. godine. Dostupna na platformama poput
+        Spotify-a i Apple Music-a, ova epizoda pruža inspiraciju i
+        uvide u inovativne pristupe koji vode ka stvaranju
+        prosperitetnog, mirnog i održivog svijeta.
+        Fokusirajući se na inkluzivni razvoj gradova i regiona,
+        Katya Letunovsky, pružila je vrijedne uvide o tome kako
+        veliki podaci mogu biti korisni alat za postizanje
+        inkluzivnosti i pravednosti u urbanom planiranju i održivom razvoju.`,
         city: "Podgorica",
-        date: "XII 2023",
-        link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        date: "10.2023",
+        link: "https://www.instagram.com/p/Cygi16mo04R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {
-        id: 12,
-        title: `EMBA MONTENEGRO: Četvorodnevna radna nedjelja (Chevening alumni Janko Bulatović) - Prijavi se!`,
-        img: "https://static.wixstatic.com/media/efd107_7a7fde8cbca244a7a0ca6c66e52efea0~mv2.jpg/v1/fill/w_925,h_925,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/efd107_7a7fde8cbca244a7a0ca6c66e52efea0~mv2.jpg",
-        description: `Društvo za preduzetništvo, menadžment i biznis Ekonomskog fakulteta UCG EMBA Montengro, u saradnji sa Asocijacijom za društveno-odgovorno poslovanje, organizuje gostujuće predavanje Chevening alumniste sa MBA Westminister University Janka Bulatovića na temu: “Četvorodnevna radna nedelja- uticaj na produktivnost i zaposlene”
-
-
-        Pozivamo sve studente, predstavnike civilnog društva i institucije da prisustvuju gostujućem predavanju. 
-        
-        
-        Bulatović će objasniti kako bi sistem funkcionisao po konceptu četvorodnevne radne nedelje i kako bi to uticalo na produktivnost, a samim tim i na zaposlene.
-        
-        
-        Predavanje će biti održano u srijedu, 13. decembra u 13 h u sali 104 na Ekonomskom fakultetu. Broj ljudi u sali je ograničen, prijave se vrše putem ove forme OVDJE.
-        
-        
-        
-        Javni poziv objavljuje Mreža za omladinski aktivizam Crne Gore u saradnji sa EMBA Montenegro.`,
+        id: 3,
+        title: `Edukativna radionica u saradnji sa Glavnim gradom Podgorica “Mitovi o
+        društveno odgovornom poslovanju”`,
+        img: image03,
+        description: `U saradnji sa Glavnim gradom Podgorica NVO “Asocijacija za društveno odgovorno
+        poslovanje” je 14. septembra 2023. godine, u prostorijama Birziminium Hub-a organiziovala
+        besplatnu edukativnu radionicu pod nazivom “Mitovi o društveno odgovornom poslovanju”.
+        Predavač je bila mr Vanja Janković, osnivačiva NVO A4CSR.
+        Društvena odgovornost preduzeća (DOP eng. CSR) je koncept upravljanja koji opisuje kako
+        kompanija doprinosi dobrobiti zajednice i društva kroz mjere zaštite životne sredine i društva.
+        DOP igra ključnu ulogu u tome kako brendove percipiraju kupci i njihova ciljna publika.
+        Takođe može pomoći privlačenju zaposlenih i investitora koji daju prioritet ciljevima
+        društveno odgovornog poslovanja koje je kompanija identifikovala. Međutim DOP je takođe
+        često pogrešno shvaćen ili zloupotrebljen od strane nekih preduzeća i kritičara. Tokom
+        edukativne radionice prisutni su imali priliku da istraže neke od uobičajenih zabluda i mitova
+        o društveno odgovornom poslovanju.`,
         city: "Podgorica",
-        date: "XII 2023",
-        link: "https://www.moacg.me/post/emba-montenegro-cetvorodnevna-radna-nedjelja-chevening-alumni-janko-bulatovic-prijavi-se",
+        date: "09.2023",
+        link: "https://www.instagram.com/p/CxNByF8Il4W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
+        id: 6,
+        title: `Međunarodni dan čišćenja obala - akcija sa NVO “Zero Waste Montenegro”`,
+        img: image06,
+        description: `Uvažavajući značaj očuvanja čistoće naših obala i vodenih resursa, NVO "Asocijacija za
+        društveno odgovorno poslovanje" sa ponosom se pridružila najvećem svjetskom
+        volonterskom poduhvatu - Međunarodnom danu čišćenja obala. Ova inspirativna akcija, koju
+        je organizovala Zero Waste Montenegro 16.
+        Septembra. 2023. godine, okupila je brojne
+        zainteresovane strane kako bi se suočile s globalnim
+        izazovom otpada u morima i vodotocima.
+        Naša NVO je s entuzijazmom doprinijela čišćenju na
+        lokaciji plaže "Galeb", svjesna da otpad u blizini
+        vodenih tokova može izazvati različite probleme. Ne
+        samo što utiče na kvalitet vode, već ugrožava i biljni i
+        životinjski svijet, te zagađuje okolinu koja je ključna za
+        turizam i rekreaciju, od kojeg zavisi i crnogorska
+        ekonomija.
+        Ovaj čin solidarnosti i brige za našu planetu predstavlja korak ka boljem sutra, pokazujući da
+        zajedničkim naporima možemo stvoriti pozitivne promjene u našem okruženju. NVO A4CSR
+        ostaje posvećena podršci održivim praksama i promovisanju svijesti o zaštiti životne sredine,
+        te poziva sve da se pridruže u borbi za čistiju i zdraviju planetu za buduće generacije.`,
+        city: "Podgorica",
+        date: `09.2023`,
+        link: "https://www.instagram.com/p/CxQIMR5oD-T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
+        id: 7,
+        title: `Potpisivanje Memoranduma o saradnji sa Fondacijom "Cini Dobro"`,
+        img: image07,
+        description: `Postizanje dugoročnih partnerskih odnosa s organizacijama koje dijele naše vrijednosti
+        ključno je za ostvarenje naše misije. 28. Septembra 2023. godine smo napravili značajan
+        korak u tom smjeru - potpisivanjem Memoranduma o saradnji sa Fondacijom "Čini Dobro".
+        Ova saradnja predstavlja spoj snaga i resursa, s ciljem unapređenja društveno odgovornog
+        poslovanja, održivog razvoja i promocije pozitivnih primjera iz prakse.
+        Kroz ovu saradnju, Fondacija "Čini dobro" i
+        NVO "Asocijacija za društveno odgovorno
+        poslovanje" će udružiti svoje napore u
+        organizovanju različitih aktivnosti s ciljem
+        osvješćivanja javnosti i edukacije. Naš
+        zajednički fokus bit će na sticanju vještina i
+        znanja iz oblasti društveno odgovornog poslovanja, održivog razvoja i zaštite životne sredine.
+        Ovaj Memorandum predstavlja početak plodne saradnje koja će omogućiti da zajedno
+        ostvarimo pozitivan uticaj na društvo i okolinu. Sa entuzijazmom i posvećenošću, radujemo
+        se budućim projektima i inicijativama koje će proizaći iz ove saradnje.`,
+        city: "Podgorica",
+        date: "09.2023",
+        link: "https://www.instagram.com/p/Cxu03xVI0fI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     }
 ]

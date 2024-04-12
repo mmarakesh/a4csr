@@ -19,7 +19,7 @@
     width: 70%;
     margin-top: 30px;
     background-color: #27B470;
-    box-shadow: 10px 5px 5px #C4C4C4;
+    box-shadow: 5px 5px 5px #C4C4C4;
     opacity: 0.9;
 }
 :hover.formspree-btn {

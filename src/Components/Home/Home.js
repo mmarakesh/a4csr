@@ -15,12 +15,12 @@ const Home = () => {
 <Onama/>
 <div>
 <ThreeVjesti/>
-<Link to = "/projekti" className="allVjesti-btn">Svi projekti  »</Link> 
+<Link to = "/vjesti" className="allVjesti-btn">Svi vijesti  »</Link> 
 </div>
 <Misija/>
 <Rekli/>
 <Video/>
-<Link to = "/vjesti" className="allVjesti-btnTwo">Sve vijesti  »</Link> 
+<Link to = "/projekti" className="allVjesti-btnTwo">Saznaj više »</Link> 
 <section id="partneri"><Partneri/></section>
 <ScrollToTopButton/>
 </div>

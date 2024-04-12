@@ -1,0 +1,96 @@
+.add-projekti-container {
+    min-height: 100vh;
+}
+.add-vjesti-all {
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-vjesti-card {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 2%;
+    box-shadow: 5px 5px 5px #dddddd
+}
+.add-vjesti-title {
+    font-family: "Gruppo", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 10px;
+}
+.add-img-news {
+    max-width: 100%;
+    height: auto;
+}
+.vjesti-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+.vjesti-par {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: auto;
+}
+.vjesti-show {
+    color: #27B470;
+}
+.vjesti-link {
+    text-decoration: none;
+    color: #27B470;
+}
+.invisible-btn{
+border: none;
+background-color: #fff;
+} 
+@media all and (max-width: 1400px) {
+    .add-vjesti-card {
+        width: 500px;
+    }
+}
+@media all and (max-width: 1280px) {
+    .add-vjesti-card {
+        width: 33%;
+    }
+}
+@media all and (max-width: 1024px) {    
+   
+    }
+    @media all and (max-width: 800px) {   
+        .add-vjesti-card {
+            width: 100%;
+        }
+        .vjesti-show {
+            font-size: 12px;
+        }
+        .vjesti-par {
+            font-size: 15px;
+        }
+        .vjesti-link {
+            font-size: 13px;
+        }  
+        }
+@media all and (max-width: 500px) {    
+.vjesti-title {
+    font-size: 18px;
+    margin: 20px 20px;
+}
+.add-vjesti-card {
+    width: 100%;
+}
+.vjesti-title {
+    font-size: 20px;
+}
+.vjesti-description {
+    font-size: 12px;
+}
+.vjesti-show {
+    font-size: 12px;
+}
+.vjesti-par {
+    font-size: 13px;
+}
+.vjesti-link {
+    font-size: 13px;
+}
+}

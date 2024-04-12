@@ -4,7 +4,7 @@ import "./ThreeVjesti.css";
 
 
 function ThreeVjesti() {
-  const firstThreeVjesti = vjestiList.filter((_, id)=>[2,4,7].includes(id)); // Get the first three items from vjestiList
+  const firstThreeVjesti = vjestiList.filter((_, id)=>[0,3,7].includes(id)); // Get the first three items from vjestiList
   const [showText, setShowText] = useState(false);
   const showTextClick = (element) => {
     element.showMore = !element.showMore
@@ -12,7 +12,7 @@ function ThreeVjesti() {
 }
   return (
     <>
-      <h1 className="vjesti-header">Naši <span className='green-header'> projekti</span></h1>
+      <h1 className="vjesti-header">Naši <span className='green-header'> vijesti</span></h1>
     <div className="vjesti-three-all"> 
       {firstThreeVjesti.map((element) => {
         const { id, img, title, description, showMore } = element;
