@@ -6,6 +6,7 @@ import ScrollToTopButton from "../ScrollToTop/ScrollToTopButton";
 import ThreeVjesti from "../Vjesti/ThreeVjesti";
 import { Link } from 'react-router-dom';
 import Video from "../Video/Video";
+import Section from "../Vjesti/Section";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <div className="nav-container">
 <Onama/>
 <div>
+    <Section/>
 <ThreeVjesti/>
 <Link to = "/vjesti" className="allVjesti-btn">Svi vijesti  »</Link> 
 </div>

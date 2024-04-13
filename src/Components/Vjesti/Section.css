@@ -1,0 +1,132 @@
+.section-header {
+    font-family: "Gruppo", sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+.section-all {
+    display: flex;
+    padding: 20px 60px;
+    background-color: #f5f5f5;
+}
+
+.img-left {
+    width: 800px;
+    height: 605px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.section-right-card {
+    display: flex;
+    padding: 20px 0px 20px 20px;
+}
+.img-right {
+    border-radius: 5px;
+}
+.section-right-title {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.section-right-link {
+    color: #000;
+    text-decoration: none;
+}
+@media all and (max-width: 1280px) {
+    .img-left {
+        width: 650px;
+        height: 475px;
+        margin: 10px;
+    }
+    .section-right-card {
+        padding: 10px 0px 10px 30px;
+    }
+    .img-right {
+        width: 190px;
+        height: 145px;
+    }
+    .section-right-title {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 1024px) {
+    .img-left {
+        width: 550px;
+        height: 450px;
+        margin: 10px;
+    }
+    .section-right-card {
+        padding: 10px 0px 10px 30px;
+    }
+    .img-right {
+        width: 170px;
+        height: 137px;
+    }
+    .section-right-title {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 800px) {
+    .section-header {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .section-all {
+        flex-direction: column;
+    }
+   
+    .img-left {
+        width: 640px;
+        margin: 10px;
+    }
+    .section-right-card {
+        flex-direction: column;
+        padding: 10px 25px 10px 10px;
+    }
+    .img-right {
+        width: 190px;
+        height: 150px;
+    }
+    .section-right-title {
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 190px;
+        font-size: 10px;
+    }
+    .section-three-card {
+        display: flex;
+    }
+}
+@media all and (max-width: 500px) {
+    .section-header {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .section-all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-left {
+        display: none;
+    }
+    .section-right-card {
+        flex-direction: column;
+        padding: 10px 25px 10px 10px;
+    }
+    .img-right {
+        width: 280px;
+        height: auto;
+    }
+    .section-right-title {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .section-three-card {
+        display: flex;
+        flex-direction: column;
+    }
+}
