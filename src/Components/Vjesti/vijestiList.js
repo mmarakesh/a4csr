@@ -12,32 +12,6 @@ import image11 from "../Projekti/image/IMG_3198.JPG"
 
 const vijestiList = [
     {
-        id: 4,
-        title: `Edukativna radionica u saradnji sa kolektivom “Kamenovo beach” o društveno
-        odgovornom poslovanju`,
-        img: image04,
-        description: `U sklopu saradnje sa kolektivom Kamenovo Beach,
-        predstavnica Asocijacije za društveno odgovorno poslovanje,
-        mr Vanja Janković, održala je 23. Septembra 2023. godine
-        inspirativnu radionicu za zaposlene. Tokom ove interaktivne
-        sesije, zajedno smo razgovarali o aktuelnoj sezoni,
-        identifikovali oblasti u kojima se mogu unaprijediti poslovne
-        prakse, te istražili načine primjene praksi društveno
-        odgovornog poslovanja (DOP). Važno je istaći da restorani i plažni barovi koji aktivno sprovode korporativnu društvenu
-        odgovornost ostvaruju bolje rezultate u upravljanju svojim zaposlenima. Implementacija
-        DOP praksi u restorane ne samo da doprinosi privlačenju i zadržavanju gostiju, već i
-        motivaciji i angažmanu zaposlenih. Posjedovanje pozitivnog imidža i odgovorne reputacije
-        koju podržava vaša organizacija predstavlja ključnu prednost u konkurentnom poslovnom
-        okruženju.
-        Kroz ovu radionicu, težimo unapređenju svijesti i razumijevanja o važnosti društveno
-        odgovornog poslovanja, te inspirišemo kolektiv da preduzme konkretne korake ka
-        ostvarivanju pozitivnih promjena, kako u okviru svoje organizacije, tako i u široj zajednici.`,
-        city: "Podgorica",
-        date: "12.2023",
-        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
         id: 1,
         title: `Projekat sa International school of Podgorica -
         UNITED KIDS INTERNATIONAL MONTENEGRO`,
@@ -103,40 +77,6 @@ const vijestiList = [
         showMore: false
     },
     {
-        id: 5,
-        title: `Edukativna radionica u saradnji sa Unijom mladih preduzetnika Crne Gore i
-        Mtel digitalnom fabrikom “Društveno odgovorno poslovanje (DOP) mladih
-        preduzetnika - benefiti i izazovi”`,
-        img: image05,
-        description: `NVO “Asocijacija za društveno odgovorno
-        poslovanje” i Unija mladih preduzetnika Crne Gore u
-        saradnji sa Mtel digitalnom fabrikom održala je 25.
-        oktobra 2023. godine besplatnu edukativnu radionici
-        pod nazivom “Društveno odgovorno poslovanje
-        (DOP) mladih preduzetnika - benefiti i izazovi”, u
-        prostorijama Mtel Digitalne Fabrike.
-        Preduzetnici su imali priliku da se upoznaju sa
-        osnovnim principama društveno odgovornog
-        poslovanja, primjerima projekata i kompanija koje su
-        uspješno implementirale DOP, alatima i strategijama
-        za implementaciju DOP-a u sopstvenim preduzetničkim poduhvatima, kao i analizu izazova i
-        prednosti koji se javljaju u ovom kontekstu. Predavač je bila mr Vanja Janković, osnivačica
-        A4CSR.
-        Takođe, ponosni smo što je našu radionicu o društveno
-        odgovornom poslovanju za mlade preduzetnike Urban
-        October Ujedinjenih nacija (UN) označio kao jedan od
-        događaja koji promovišu bolju urbanu budućnost. Ova
-        radionica je bila jedina u sjevernom dijelu Zapadnog
-        Balkana koja je bila pokrivena na platformi i počastvovani
-        smo ovim priznanjem. Našu radionicu i druge događaje
-        možete pogledati na web stranici Urban October:
-        https://urbanoctober.unhabitat.org/`,
-        city: "Podgorica",
-        date: "12.2023",
-        link: "https://www.instagram.com/p/Cy1WW-1LUkr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-        showMore: false
-    },
-    {
         id: 9,
         title: `Osnivačica A4CSR Katya Letunovsky učestovovala "ESG Innovation Collective
         Research Conference"`,
@@ -157,7 +97,7 @@ const vijestiList = [
         važan korak ka izgradnji održivijeg i inkluzivnijeg društva, a mi smo ponosni što je naša
         članica Katya bila ključni dio tog procesa.`,
         city: "Podgorica",
-        date: "12.2023",
+        date: "11.2023",
         link: "https://www.instagram.com/p/CzOUkCNoIt7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
@@ -180,7 +120,7 @@ const vijestiList = [
         pozitivan uticaj na društvene izazove. Ova inicijativa odražava našu predanost
         transparentnosti, inkluziji i aktivnom učešću u izgradnji boljeg društva za sve.`,
         city: "Podgorica",
-        date: "12.2023",
+        date: "11.2023",
         link: "https://www.instagram.com/p/Czywbf2oaSG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
@@ -213,6 +153,40 @@ const vijestiList = [
         showMore: false
     },
     {
+        id: 5,
+        title: `Edukativna radionica u saradnji sa Unijom mladih preduzetnika Crne Gore i
+        Mtel digitalnom fabrikom “Društveno odgovorno poslovanje (DOP) mladih
+        preduzetnika - benefiti i izazovi”`,
+        img: image05,
+        description: `NVO “Asocijacija za društveno odgovorno
+        poslovanje” i Unija mladih preduzetnika Crne Gore u
+        saradnji sa Mtel digitalnom fabrikom održala je 25.
+        oktobra 2023. godine besplatnu edukativnu radionici
+        pod nazivom “Društveno odgovorno poslovanje
+        (DOP) mladih preduzetnika - benefiti i izazovi”, u
+        prostorijama Mtel Digitalne Fabrike.
+        Preduzetnici su imali priliku da se upoznaju sa
+        osnovnim principama društveno odgovornog
+        poslovanja, primjerima projekata i kompanija koje su
+        uspješno implementirale DOP, alatima i strategijama
+        za implementaciju DOP-a u sopstvenim preduzetničkim poduhvatima, kao i analizu izazova i
+        prednosti koji se javljaju u ovom kontekstu. Predavač je bila mr Vanja Janković, osnivačica
+        A4CSR.
+        Takođe, ponosni smo što je našu radionicu o društveno
+        odgovornom poslovanju za mlade preduzetnike Urban
+        October Ujedinjenih nacija (UN) označio kao jedan od
+        događaja koji promovišu bolju urbanu budućnost. Ova
+        radionica je bila jedina u sjevernom dijelu Zapadnog
+        Balkana koja je bila pokrivena na platformi i počastvovani
+        smo ovim priznanjem. Našu radionicu i druge događaje
+        možete pogledati na web stranici Urban October:
+        https://urbanoctober.unhabitat.org/`,
+        city: "Podgorica",
+        date: "10.2023",
+        link: "https://www.instagram.com/p/Cy1WW-1LUkr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
         id: 8,
         title: `Osnivačica A4CSR Katya Letunovsky gostovala u “The Oblique Life” podcast-u
         ”Global Goals” o inkluziji pravednosti`,
@@ -234,6 +208,32 @@ const vijestiList = [
         city: "Podgorica",
         date: "10.2023",
         link: "https://www.instagram.com/p/Cygi16mo04R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        showMore: false
+    },
+    {
+        id: 4,
+        title: `Edukativna radionica u saradnji sa kolektivom “Kamenovo beach” o društveno
+        odgovornom poslovanju`,
+        img: image04,
+        description: `U sklopu saradnje sa kolektivom Kamenovo Beach,
+        predstavnica Asocijacije za društveno odgovorno poslovanje,
+        mr Vanja Janković, održala je 23. Septembra 2023. godine
+        inspirativnu radionicu za zaposlene. Tokom ove interaktivne
+        sesije, zajedno smo razgovarali o aktuelnoj sezoni,
+        identifikovali oblasti u kojima se mogu unaprijediti poslovne
+        prakse, te istražili načine primjene praksi društveno
+        odgovornog poslovanja (DOP). Važno je istaći da restorani i plažni barovi koji aktivno sprovode korporativnu društvenu
+        odgovornost ostvaruju bolje rezultate u upravljanju svojim zaposlenima. Implementacija
+        DOP praksi u restorane ne samo da doprinosi privlačenju i zadržavanju gostiju, već i
+        motivaciji i angažmanu zaposlenih. Posjedovanje pozitivnog imidža i odgovorne reputacije
+        koju podržava vaša organizacija predstavlja ključnu prednost u konkurentnom poslovnom
+        okruženju.
+        Kroz ovu radionicu, težimo unapređenju svijesti i razumijevanja o važnosti društveno
+        odgovornog poslovanja, te inspirišemo kolektiv da preduzme konkretne korake ka
+        ostvarivanju pozitivnih promjena, kako u okviru svoje organizacije, tako i u široj zajednici.`,
+        city: "Podgorica",
+        date: "09.2023",
+        link: "https://www.instagram.com/p/Cxi2eD0obkk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         showMore: false
     },
     {

@@ -10,8 +10,8 @@ import AddVijesti from "./AddVijesti";
 
 
 function Vjesti() {
-    const firstVideo = medijaList.filter((_, id)=>[0,1].includes(id)); /*видео с ютуба */
-    const secondVideo = medijaList.filter((_, id)=>[2,3,4].includes(id)); /*сохраненные видео */
+    const firstVideo = medijaList.filter((_, id)=>[0,1,2,3].includes(id)); /*видео с ютуба */
+    const secondVideo = medijaList.filter((_, id)=>[4].includes(id)); /*сохраненные видео */
     const thirdVideo = medijaList.filter((_, id)=>[5,6].includes(id)); /*видео с ютуба */
     
     return(
