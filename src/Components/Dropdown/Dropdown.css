@@ -1,4 +1,4 @@
-.link {
+.link, .active {
     color: #000;
     text-decoration: none;
     padding: 25px 30px;
@@ -7,7 +7,7 @@
     font-weight: 500;
     border: none;
   }
-  :hover.link {
+  .active {
     color: #27B470;
   }
   .tim-style {

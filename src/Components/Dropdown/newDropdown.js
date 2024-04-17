@@ -5,7 +5,7 @@ import {Link } from "react-router-dom";
 function NewDropdown() {
     return ( 
     <Dropdown>
-        <Dropdown.Toggle variant="none" className ='link' id="dropdown-basic">
+        <Dropdown.Toggle variant="none" className ='link' id="dropdown-basic" activeClassName="active">
             O nama
     </Dropdown.Toggle>
     
