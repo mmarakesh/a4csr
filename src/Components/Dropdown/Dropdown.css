@@ -10,9 +10,18 @@
   .active {
     color: #27B470;
   }
+  :hover.link {
+    text-decoration-line: underline;
+
+  }
   .tim-style {
     text-decoration: none;
     font-size: 15px;
+    color: #000;
+  }
+  :hover.tim-style {
+    text-decoration-line: underline;
+
   }
   .dropdown-menu-style {
     padding: 10px 25px;
