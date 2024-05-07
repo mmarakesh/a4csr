@@ -113,6 +113,7 @@
     .img-left {
         width: 280px;
         height: auto;
+        display: none;
     }
     .section-right-card {
         flex-direction: column;
